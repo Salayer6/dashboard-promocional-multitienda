@@ -4,7 +4,7 @@
 
 :
 
-##📜 Licencia
+## 📜 Licencia
 Este proyecto está licenciado bajo GNU Affero General Public License v3.0 (AGPL-3.0).
 
 He elegido esta licencia porque creo en la colaboración abierta, pero también en la reciprocidad. Si alguien utiliza este código como base para ofrecer un servicio en línea (por ejemplo, dashboards públicos o soluciones comerciales), esta licencia asegura que las mejoras y adaptaciones sean compartidas con la comunidad bajo los mismos términos.
