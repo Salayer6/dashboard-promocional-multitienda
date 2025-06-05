@@ -42,7 +42,7 @@ Resultado: se perdieron los archivos originales sin posibilidad de recuperación
 | Inicias con archivos en la carpeta pero sin control de versiones | Crea backup de seguridad antes de agregar Git, especialmente si hay riesgo de sobrescritura|
 
 🧠 Insight aprendido
-"Git no es solo un respaldo. Es un sistema de control de versiones que, mal usado, puede forzar el borrado de archivos locales si interpreta que no deben estar ahí."
+> "Git no es solo un respaldo. Es un sistema de control de versiones que, mal usado, puede forzar el borrado de archivos locales si interpreta que no deben estar ahí."
 
 - `v0.1`: Documentación iniciada.
 - `v0.2`: Proyecto iniciado, conexión de datos, EDA inicial, primeras visualizaciones
