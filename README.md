@@ -37,7 +37,7 @@ Resultado: se perdieron los archivos originales sin posibilidad de recuperación
 | Situación | Recomendación clara |
 |--------------|--------------|
 | Quieres versionar archivos ya creados localmente | Primero crear el repo en GitHub sin README ni archivos y clonar el repo vacío. Luego mover tus archivos ahí |
-| Usas IDE como PyCharm | Asegúrate de que la rama local (master o main) coincida con la del remoto, o crea una nueva rama sincronizada |
+| Usas IDE como PyCharm | Asegúrate de que la rama local (`master` o `main`) coincida con la del remoto, o crea una nueva rama sincronizada |
 | Configuras Git en carpeta con archivos previos | Realiza primero un `git init`, luego `git add .`, `git commit -m "Inicio"`, y después agrega el remote con `git remote add origin <URL>` |
 | Inicias con archivos en la carpeta pero sin control de versiones | Crea backup de seguridad antes de agregar Git, especialmente si hay riesgo de sobrescritura|
 
