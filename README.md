@@ -2,7 +2,6 @@
 #### Un estudio transversal que busca conocer el rendimiento (eficacia y eficiencia) luego de aplicar una táctica comercial enfocada en fomentar, realizando descuentos, que nuestros clientes usuarios de la tarjeta de crédito de la casa hagan uso del cupo crediticio que se les ha otorgado y, posteriormente, realizar una mirada transversal a: I. La eficacia de la campaña. II. El perfil de nuestros clientes en los que nos hemos enfocado.
 
 
-:
 
 ## 📜 Licencia
 Este proyecto está licenciado bajo GNU Affero General Public License v3.0 (AGPL-3.0).
