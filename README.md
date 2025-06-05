@@ -31,6 +31,7 @@ En ese punto, existía una incompatibilidad entre ramas locales y remotas (`mast
 Al intentar sincronizar, el sistema de control de versiones interpretó que los archivos locales no estaban versionados correctamente y los eliminó del proyecto local para ajustarse al contenido del remoto (solamente existía README.md).<br>
 Resultado: se perdieron los archivos originales sin posibilidad de recuperación directa.
 </p>
+
 ### 🛡️ Cómo evitar este error en el futuro
 #### ✅ Buenas prácticas al trabajar con Git y proyectos existentes
 | Situación | Recomendación clara |
