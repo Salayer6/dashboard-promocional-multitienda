@@ -1,2 +1,2 @@
-# dashboard-campa-a-promocional-multitienda
-Dashboard para análisis de rendimiento (Estudio transversal) [Campaña promocional - Multitienda]
+# Dashboard para análisis de rendimiento [Campaña promocional - Multitienda]
+## Un estudio transversal que busca conocer el rendimiento (eficacia y eficiencia) luego de aplicar una táctica comercial enfocada en fomentar que nuestros clientes usuarios de tarjeta de crédito realizando descuentos y, posteriormente, realizar una mirada transversal a: I. La Campaña. II. El perfil de nuestros clientes en los que nos hemos enfocado.
