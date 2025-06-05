@@ -18,19 +18,15 @@ Durante la etapa inicial del proyecto, desarrollé un dashboard en Power BI de f
 </p>
 
 #### 🧨 Lo que ocurrió
-<p align="justify">
 Al sincronizar los archivos locales con el repositorio remoto en GitHub, cometí una serie de errores en la secuencia de pasos, lo que provocó la eliminación irreversible de archivos clave, incluyendo el archivo `.pbix` y el dataset original.
-</p>
 
 #### 🧵 Secuencia problemática.
-<p align="justify">
-Se creó un nuevo proyecto en PyCharm, el cual usa por defecto la rama `master`.<br>
-Se configuró el directorio del proyecto apuntando a una carpeta que ya contenía el dashboard final y los archivos de datos.<br>
-Se agregó un `remote`, alias `origin` apuntando a un repositorio de GitHub cuyo branch principal era `main`.<br>
-En ese punto, existía una incompatibilidad entre ramas locales y remotas (`master` vs `main`) y una discrepancia de archivos: Git no reconocía los archivos existentes como parte del historial de cambios del repositorio remoto.<br>
-Al intentar sincronizar, el sistema de control de versiones interpretó que los archivos locales no estaban versionados correctamente y los eliminó del proyecto local para ajustarse al contenido del remoto (solamente existía README.md).<br>
+Se creó un nuevo proyecto en PyCharm, el cual usa por defecto la rama `master`.  
+Se configuró el directorio del proyecto apuntando a una carpeta que ya contenía el dashboard final y los archivos de datos.  
+Se agregó un `remote`, alias `origin` apuntando a un repositorio de GitHub cuyo branch principal era `main`.  
+En ese punto, existía una incompatibilidad entre ramas locales y remotas (`master` vs `main`) y una discrepancia de archivos: Git no reconocía los archivos existentes como parte del historial de cambios del repositorio remoto.  
+Al intentar sincronizar, el sistema de control de versiones interpretó que los archivos locales no estaban versionados correctamente y los eliminó del proyecto local para ajustarse al contenido del remoto (solamente existía README.md).  
 Resultado: se perdieron los archivos originales sin posibilidad de recuperación directa.
-</p>
 
 ### 🛡️ Cómo evitar este error en el futuro
 #### ✅ Buenas prácticas al trabajar con Git y proyectos existentes
