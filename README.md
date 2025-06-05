@@ -18,7 +18,7 @@ Durante la etapa inicial del proyecto, desarrollé un dashboard en Power BI de f
 </p>
 
 #### 🧨 Lo que ocurrió
-Al sincronizar los archivos locales con el repositorio remoto en GitHub, cometí una serie de errores en la secuencia de pasos, lo que provocó la eliminación irreversible de archivos clave, incluyendo el archivo `.pbix` y el dataset original.
+Al sincronizar los archivos locales con el repositorio remoto en GitHub, cometí una serie de pasos, lo que provocó la eliminación irreversible de archivos clave, incluyendo el archivo `.pbix` y el dataset original.
 
 #### 🧵 Secuencia problemática.
 Se creó un nuevo proyecto en PyCharm, el cual usa por defecto la rama `master`.  
