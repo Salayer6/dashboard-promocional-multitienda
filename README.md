@@ -7,7 +7,7 @@ Este es un estudio de corte transversal que busca conocer los resultados luego d
 
 ## 📊 Herramientas a utilizar
 - Power BI Desktop
-- [Python + pandas]
+- [python + pandas]}
 - Git y GitHub
 - [Fuente de datos: CSV, Google Spreadsheets]
 
