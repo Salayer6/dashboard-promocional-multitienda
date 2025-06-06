@@ -90,4 +90,21 @@ Git no elimina archivos confirmados sin registro. Incluso si el archivo desapare
 | 🧭 **Antes de cambiar de rama o sincronizar con remoto**, guarda archivos críticos fuera del proyecto Git. |                                                                                                   |
 | 🗃️ **Explora el historial visual en PyCharm**                                                             | `Git → Show History` puede salvarte si pierdes archivos visualmente pero siguen registrados.      |
 
+Se deja configurado el proyecto con Update Method = Rebase
 </p>
+
+## `v0.3`: Proyecto en blanco iniciado, conexión de datos, EDA inicial, primeras visualizaciones.  
+
+### 📂 Paso 1: Publicación de la fuente de datos en Google Drive
+<p align="justify">
+Con el objetivo de mantener la fuente de datos accesible desde la nube, decido <strong>subir el archivo de datos a Google Drive</strong>, lo cual permite su <strong>conexión directa desde Power BI</strong>.  
+Se opta por generar un enlace público para lectores.  
+C
+
+rear una carpeta específica para el proyecto (opcional pero recomendado).
+3. Subir el archivo `Fuentes de datos (4000 registros).csv`.
+4. Hacer clic derecho sobre el archivo → **Compartir** → Obtener enlace.
+5. Configurar el acceso como:  
+   > "Cualquier persona con el enlace puede visualizar"
+6. Copiar el enlace generado (ejemplo):
+

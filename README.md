@@ -18,7 +18,7 @@ Este es un estudio de corte transversal que busca conocer los resultados luego d
 - `v0.3`: Proyecto en blanco iniciado, conexión de datos, EDA inicial, primeras visualizaciones.  
 [...] Aquí estamos.
 - `v1.0`: Dashboard terminado.
-El detalle de los cambios se puede ver en [CHANGELOG.md](https://github.com/Salayer6/dashboard-promocional-multitienda/blob/main/CHANGELOG.md)
+El detalle de los cambios se puede ver en [CHANGELOG.md](https://github.com/Salayer6/dashboard-promocional-multitienda/blob/main/CHANGELOG.md){:target="_blank"}
 
 
 ## 📜 Licencia
