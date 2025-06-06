@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c852d502-bcae-4332-8e4c-1be76fd4e154" name="Changes" comment="ADD directories">
-      <change afterPath="$PROJECT_DIR$/dashboard/Dashboard de campaña promocional para multitienda - Célula de Inteligencia de negocios.pbix" afterDir="false" />
+    <list default="true" id="c852d502-bcae-4332-8e4c-1be76fd4e154" name="Changes" comment="ADD directories and .pbip">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,6 +48,9 @@
     &quot;accountId&quot;: &quot;eacc0840-a2f1-40fa-a65d-22e3287393a3&quot;
   }
 }</component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 7
 }</component>
@@ -55,14 +60,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "D:/Caso Multitienda/caso-multitienda-repository",
-    "settings.editor.selected.configurable": "vcs.log"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/naxhito/Downloads/es.242.267.jar&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.language.and.region&quot;
   }
-}]]></component>
+}</component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -87,7 +92,15 @@
       <option name="project" value="LOCAL" />
       <updated>1749091963430</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="ADD directories and .pbip">
+      <option name="closed" value="true" />
+      <created>1749177489831</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1749177489831</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -140,6 +153,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="ADD directories" />
-    <option name="LAST_COMMIT_MESSAGE" value="ADD directories" />
+    <MESSAGE value="ADD directories and .pbip" />
+    <option name="LAST_COMMIT_MESSAGE" value="ADD directories and .pbip" />
   </component>
 </project>

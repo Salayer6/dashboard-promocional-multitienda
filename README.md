@@ -1,4 +1,4 @@
-# Dashboard para análisis de rendimiento [Campaña promocional - Multitienda]
+## Dashboard para análisis de rendimiento [Campaña promocional - Multitienda]
 #### Un estudio transversal por Ignacio Salas, Estudiante de Data Science. 
 
 <p align="justify">
@@ -31,18 +31,18 @@ Al sincronizar los archivos locales con el repositorio remoto en GitHub, cometí
 Se creó un nuevo proyecto en PyCharm, el cual usa por defecto la rama `master`.  
 Se configuró el directorio del proyecto apuntando a una carpeta que ya contenía el dashboard final y los archivos de datos.  
 Se agregó un `remote`, alias `origin` apuntando a un repositorio de GitHub cuyo branch principal era `main`.  
-En ese punto, existía una incompatibilidad entre ramas locales y remotas (`master` vs `main`) y una discrepancia de archivos: Git no reconocía los archivos existentes como parte del historial de cambios del repositorio remoto.  
+En ese punto, existía una incompatibilidad entre ramas locales y remotas (`master` vs. `main`) y una discrepancia de archivos: Git no reconocía los archivos existentes como parte del historial de cambios del repositorio remoto.  
 Al intentar sincronizar, el sistema de control de versiones interpretó que los archivos locales no estaban versionados correctamente y los eliminó del proyecto local para ajustarse al contenido del remoto (solamente existía README.md).  
 Resultado: se perdieron los archivos originales sin posibilidad de recuperación directa.
 
 ### 🛡️ Cómo evitar este error en el futuro
 #### ✅ Buenas prácticas al trabajar con Git y proyectos existentes
-| Situación | Recomendación clara |
-|--------------|--------------|
-| Quieres versionar archivos ya creados localmente | Primero crear el repo en GitHub sin README ni archivos y clonar el repo vacío. Luego mover tus archivos ahí |
-| Usas IDE como PyCharm | Asegúrate de que la rama local (`master` o `main`) coincida con la del remoto, o crea una nueva rama sincronizada |
-| Configuras Git en carpeta con archivos previos | Realiza primero un `git init`, luego `git add .`, `git commit -m "Inicio"`, y después agrega el remote con `git remote add origin <URL>` |
-| Inicias con archivos en la carpeta pero sin control de versiones | Crea backup de seguridad antes de agregar Git, especialmente si hay riesgo de sobrescritura|
+| Situación                                                        | Recomendación clara                                                                                                                      |
+|------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------|
+| Quieres versionar archivos ya creados localmente                 | Primero crear el repo en GitHub sin README ni archivos y clonar el repo vacío. Luego mover tus archivos ahí                              |
+| Usas IDE como PyCharm                                            | Asegúrate de que la rama local (`master` o `main`) coincida con la del remoto, o crea una nueva rama sincronizada                        |
+| Configuras Git en carpeta con archivos previos                   | Realiza primero un `git init`, luego `git add .`, `git commit -m "Inicio"`, y después agrega el remote con `git remote add origin <URL>` |
+| Inicias con archivos en la carpeta pero sin control de versiones | Crea backup de seguridad antes de agregar Git, especialmente si hay riesgo de sobrescritura                                              |
 
 🧠 Lección aprendida
 > "Git no es solo un respaldo. Es un sistema de control de versiones que, mal usado, puede forzar el borrado de archivos locales si interpreta que no deben estar ahí."
@@ -70,4 +70,4 @@ En otras palabras: puedes estudiar, usar y modificar este software libremente, p
 
 Esto permite que el conocimiento circule, que se valore el trabajo invertido y que no se privatice lo que nace como un esfuerzo comunitario.
 
-Si tienes alguna duda, necesidad especial  o quieres negociar una licencia alternativa para uso cerrado o comercial, puedes escribirme directamente.
+Si tienes alguna duda, necesidad especial o quieres negociar una licencia alternativa para uso cerrado o comercial, puedes escribirme directamente.
