@@ -51,7 +51,7 @@ Resultado: se perdieron los archivos originales sin posibilidad de recuperación
 ## 🔧 `v0.2`: ¡Dashboard recuperado! - ¿Cómo lo hice? - ¡Así lo hice! 2025-06-05
 ¿Cómo lo hice? Aún no lo sé, pero lo descubriré y lo plasmaré aquí.  
 Dashboard de rendimiento de campaña promocional enfocado en clientes con tarjeta de crédito aprobada.  
-![image](https://github.com/user-attachments/assets/fdf07643-e532-42cc-8f9e-547881ce3bda)
+![image](https://github.com/user-attachments/assets/fdf07643-e532-42cc-8f9e-547881ce3bda){:target="_blank"}
 
 ### 💡 ¡Así lo hice! 🛠️ Recuperación manual de archivo .pbix eliminado accidentalmente
 #### 🧩 Contexto
@@ -76,6 +76,11 @@ Una vez abierto y verificado, el archivo se guardó manualmente en un directorio
   
 #### 🧠 Lección aprendida
 Git no elimina archivos confirmados sin registro. Incluso si el archivo desaparece del árbol de archivos activo, su rastro permanece en el historial de commits, mientras no se hayan hecho operaciones destructivas como git gc, rebase con pérdida, o borrado del branch.
+| Acción | Qué hace | Cambia tu código local |
+| ------------------ | -------------------------------------------------------------------------- | ------------------------- |
+| **Fetch** | Descarga los cambios remotos **sin aplicarlos** | ❌ No |
+| **Pull** | Descarga los cambios remotos **y los fusiona con tu rama actual** | ✅ Sí |
+| **Update Project** | En PyCharm, aplica `Pull` y otras tareas de sincronización con el proyecto | ✅ Sí (depende de ajustes) |
 
 #### 🔐 Cómo evitar esta situación en el futuro
 | Recomendación                                                                                              | Detalles                                                                                          |
@@ -84,6 +89,5 @@ Git no elimina archivos confirmados sin registro. Incluso si el archivo desapare
 | 🌳 **Evita borrar ramas sin inspeccionarlas**                                                              | Usa `git log` o el panel de Git en PyCharm para ver qué contienen.                                |
 | 🧭 **Antes de cambiar de rama o sincronizar con remoto**, guarda archivos críticos fuera del proyecto Git. |                                                                                                   |
 | 🗃️ **Explora el historial visual en PyCharm**                                                             | `Git → Show History` puede salvarte si pierdes archivos visualmente pero siguen registrados.      |
-
 
 </p>

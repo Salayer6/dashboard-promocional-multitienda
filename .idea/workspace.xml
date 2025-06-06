@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c852d502-bcae-4332-8e4c-1be76fd4e154" name="Changes" comment="UPDATE CHANGELOG.md">
+    <list default="true" id="c852d502-bcae-4332-8e4c-1be76fd4e154" name="Changes" comment="ADD Guía de formulación INACAP">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/CHANGELOG.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Guia Formulacion de Informe DW.docx" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Guia Formulacion de Informe DW.docx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,12 +64,13 @@
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "D:/Caso Multitienda/caso-multitienda-repository/data",
+    "last_opened_file_path": "D:/Caso Multitienda/caso-multitienda-repository/docs",
     "settings.editor.selected.configurable": "editor.preferences.tabs"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Caso Multitienda\caso-multitienda-repository\docs" />
       <recent name="D:\Caso Multitienda\caso-multitienda-repository\data" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -155,7 +157,23 @@
       <option name="project" value="LOCAL" />
       <updated>1749227528757</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="UPDATE CHANGELOG.md">
+      <option name="closed" value="true" />
+      <created>1749232353999</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1749232353999</updated>
+    </task>
+    <task id="LOCAL-00010" summary="ADD Guía de formulación INACAP">
+      <option name="closed" value="true" />
+      <created>1749232389041</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1749232389041</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -213,6 +231,7 @@
     <MESSAGE value="CREATE project structure and files (empty)" />
     <MESSAGE value="UPDATE README.md &amp; CHANGELOG.md" />
     <MESSAGE value="UPDATE CHANGELOG.md" />
-    <option name="LAST_COMMIT_MESSAGE" value="UPDATE CHANGELOG.md" />
+    <MESSAGE value="ADD Guía de formulación INACAP" />
+    <option name="LAST_COMMIT_MESSAGE" value="ADD Guía de formulación INACAP" />
   </component>
 </project>
