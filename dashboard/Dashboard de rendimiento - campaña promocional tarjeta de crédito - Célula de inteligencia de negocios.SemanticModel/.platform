@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "SemanticModel",
+    "displayName": "Dashboard de rendimiento - campaña promocional tarjeta de crédito - Célula de inteligencia de negocios"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "056a4e02-160b-4842-bd85-ea95ef82a1ca"
+  }
+}
