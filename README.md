@@ -1,5 +1,5 @@
 ## Dashboard para análisis de rendimiento [Campaña promocional - Multitienda]
-#### Un estudio transversal por Ignacio Salas, Estudiante de Data Science. 
+#### Un estudio econométrico por Ignacio Salas, Estudiante de Data Science. 
 
 <p align="justify">
 Este es un estudio de corte transversal que busca conocer los resultados luego de aplicar una táctica comercial enfocada en fomentar, realizando descuentos, que nuestros clientes usuarios de la tarjeta de crédito de la casa hagan uso del cupo crediticio que se les ha otorgado y, posteriormente, realizar una mirada transversal a lo acontecido para poder conocer: I. El rendimiento de la campaña (Eficacia, eficiencia y costo comparativo). II. El perfil de nuestros clientes en los que nos hemos enfocado.
