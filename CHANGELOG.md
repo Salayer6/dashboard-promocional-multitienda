@@ -4,10 +4,12 @@
 - `v0.1`: Iniciar proceso de desarrollo+documentación como dios manda.
 - `v0.2`: ¡Dashboard recuperado! - ¿Cómo lo hice? - ¡Así lo hice!
 - `v0.3`: Proyecto en blanco iniciado, conexión de datos, EDA inicial, primeras visualizaciones.  
-[...] Aquí estamos.
+[...] ☀️ Aquí estamos.
 - `v1.0`: Producto terminado.
 
-# 🔄 Detalle de versiones
+## 🔄 Detalle de versiones
+Insights - Errores Capa 8 - Buenas prácticas.
+
 ## `v0.0` Intento fallido de publicación - 2025-06-04
 #### 🔧 Versión 0: Subir archivo `.pbix` - Registro del incidente – Error en sincronización Git - Aprendizaje.
 <p align="justify">
@@ -44,11 +46,11 @@ Resultado: se perdieron los archivos originales sin posibilidad de recuperación
 > Markdown language skills: +1!  
 > Markdown language skills: +1!  
 > Markdown language skills: +1!  
-...
+> ...
 
 ## 🔧 `v0.2`: ¡Dashboard recuperado! - ¿Cómo lo hice? - ¡Así lo hice! 2025-06-05
 ¿Cómo lo hice? Aún no lo sé, pero lo descubriré y lo plasmaré aquí.  
-Dashboard
+Dashboard de rendimiento de campaña promocional enfocado en clientes con tarjeta de crédito aprobada.  
 ![image](https://github.com/user-attachments/assets/fdf07643-e532-42cc-8f9e-547881ce3bda)
 
 ### 💡 ¡Así lo hice! 🛠️ Recuperación manual de archivo .pbix eliminado accidentalmente
@@ -57,23 +59,23 @@ Dashboard
 Durante la configuración de Git en un proyecto con archivos locales ya existentes (incluyendo el archivo Dashboard.pbix), se produjo un error de sincronización entre ramas (master local y main remota). Esto resultó en la eliminación del archivo .pbix desde el directorio visible en PyCharm.
 
 #### ⚙️ Qué sucedió realmente
-Aunque el archivo desapareció del explorador de archivos del proyecto, no había sido completamente destruido. PyCharm, al estar vinculado con Git, registró su existencia en el historial de versiones de la rama master.
+Aunque el archivo desapareció del explorador de archivos del proyecto, no había sido completamente destruido. PyCharm, al estar vinculado con Git, registró su existencia en el historial de versiones de la rama master (localmente).
 
-#### ✅ Proceso de recuperación (paso a paso)
-Se identifica la rama local master como la que contenía originalmente el archivo `Dashboard.pbix`.
-
-En PyCharm, se accede al historial del proyecto o directamente al historial de Git.
-
-Allí aparece el archivo .pbix como parte de un commit anterior.
-
-Clic derecho sobre el archivo → “Abrir en aplicación asociada”
-
-Esto abrió correctamente el archivo .pbix en Power BI Desktop, confirmando que aún estaba intacto.
-
-Una vez abierto y verificado, el archivo se guardó manualmente en un directorio seguro fuera del proyecto Git.
-
+#### ✅ Proceso de recuperación desde el historial local (paso a paso).  
+Se identifica la rama local master como la que contenía originalmente el archivo `Dashboard.pbix`.  
+  
+En PyCharm, se accede al historial del proyecto o directamente al historial de Git.  
+  
+Allí aparece el archivo .pbix como parte de un commit anterior.  
+  
+Clic derecho sobre el archivo → “Abrir en aplicación asociada”  
+  
+Esto abrió correctamente el archivo .pbix en Power BI Desktop, confirmando que aún estaba intacto.  
+  
+Una vez abierto y verificado, el archivo se guardó manualmente en un directorio seguro fuera del proyecto Git.  
+  
 #### 🧠 Lección aprendida
-Git no elimina archivos confirmados sin registro. Incluso si el archivo desaparece del árbol de archivos activo, su rastro permanece en el historial de commits, mientras no se hayan hecho operaciones destructivas como git gc, rebase con pérdida, o borrado de la rama.
+Git no elimina archivos confirmados sin registro. Incluso si el archivo desaparece del árbol de archivos activo, su rastro permanece en el historial de commits, mientras no se hayan hecho operaciones destructivas como git gc, rebase con pérdida, o borrado del branch.
 
 #### 🔐 Cómo evitar esta situación en el futuro
 | Recomendación                                                                                              | Detalles                                                                                          |
