@@ -11,8 +11,15 @@ Este es un estudio de corte transversal que busca conocer los resultados luego d
 - Git y GitHub
 - [Fuente de datos: CSV, Google Spreadsheets]
 
-## 🔄 Registro de versiones
-#### 🔧 Paso 0: Subir archivo `.pbix` - Registro del incidente – Error en sincronización Git - Aprendizaje.
+## 🔄 Changelog
+- `v0.0`: Intento fallido de subir Dashboard.
+- `v0.1`: Documentación iniciada.  
+- `v0.2`: Proyecto iniciado, conexión de datos, EDA inicial, primeras visualizaciones.  
+- `v0.2`: Dashboard recuperado!
+- `v1.0`: Dashboard terminado.
+
+## 🔄 Detalle de versiones
+#### 🔧 Versión 0: Subir archivo `.pbix` - Registro del incidente – Error en sincronización Git - Aprendizaje.
 <p align="justify">
 Durante la etapa inicial del proyecto, desarrollé un dashboard en Power BI de forma orgánica, sin configurar desde el principio un control de versiones. Una vez terminado, decidí subir el producto final a GitHub como parte de mi portafolio.
 </p>
@@ -40,10 +47,19 @@ Resultado: se perdieron los archivos originales sin posibilidad de recuperación
 🧠 Lección aprendida
 > "Git no es solo un respaldo. Es un sistema de control de versiones que, mal usado, puede forzar el borrado de archivos locales si interpreta que no deben estar ahí."
 
-## 🔄Changelog
-- `v0.1`: Documentación iniciada.
-- `v0.2`: Proyecto iniciado, conexión de datos, EDA inicial, primeras visualizaciones
-- `v1.0`: Dashboard terminado
+#### 🔧 Versión 0.1: Iniciar proceso de desarrollo+documentación como dios manda.
+> Markdown language skills: +1!  
+> Markdown language skills: +1!  
+> Markdown language skills: +1!  
+> Markdown language skills: +1!  
+> Markdown language skills: +1!  
+> Markdown language skills: +1!  
+...
+
+#### 🔧 Versión 0.2: ¡Dashboard recuperado! - ¿Cómo lo hice? - ¡Así lo hice!
+¿Cómo lo hice? Aún no lo sé, pero lo descubriré y lo plasmaré aquí.
+![image](https://github.com/user-attachments/assets/fdf07643-e532-42cc-8f9e-547881ce3bda)
+
 
 ## 📜 Licencia
 Este proyecto está licenciado bajo GNU Affero General Public License v3.0 (AGPL-3.0).
