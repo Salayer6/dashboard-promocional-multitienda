@@ -9,9 +9,10 @@ Este es un estudio de corte transversal que busca conocer los resultados luego d
 - Git y GitHub
 - PyCharm Community Edition
 - Mermaid Chart
-- Pandas EDA Notebook
+- Pandas EDA Notebook (Comparar eficiencia con GlueViz)
 - `PyDrive` Notebook
-- Google Spreadsheets ➡️ (Nuevas Fuentes de datos.csv) ➡️ Power Query  
+  - Google Spreadsheets ➡️ (Nuevas Fuentes de datos.csv) ➡️ ETL
+    - Power Query  
 - Python ML Notebook
 - Power BI Desktop & Service
 
