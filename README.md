@@ -9,6 +9,7 @@ Este es un estudio de corte transversal que busca conocer los resultados luego d
 - Git y GitHub  
 - PyCharm Community Edition  
 - Spyder  
+  - Notebook plugin
   - Pandas EDA Notebook  
     - Comparar eficiencia con GlueViz  
 - Power BI Desktop  

@@ -116,8 +116,9 @@ Con el objetivo de mantener la fuente de datos accesible desde la nube, decido <
 </a>
 
 #### 🔠 Paso 2: Análisis exploratorio de datos y primeras visualizaciones
-
+Pre-requisito: Instalar Plugin para ejecución de Python Notebooks.
 En Spyder no se me hace necesario el uso de un proyecto, por lo que solamente configuraré la carpeta de trabajo y cargaré el notebook de referencia.
+
 
 
 ### 📂 Paso 1:
