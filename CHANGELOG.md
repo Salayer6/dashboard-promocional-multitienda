@@ -1,11 +1,16 @@
 # 🔄 CHANGELOG
 
-- `v0.0`: Intento fallido de publicación.
-- `v0.1`: Iniciar proceso de desarrollo+documentación como dios manda.
-- `v0.2`: ¡Dashboard recuperado! - ¿Cómo lo hice? - ¡Así lo hice!
-- `v0.3`: Proyecto en blanco iniciado, conexión de datos, EDA inicial, primeras visualizaciones.  
-[...] ☀️ Aquí estamos.
-- `v1.0`: Producto terminado.
+>                             `v0.0`: Intento fallido de subir Dashboard.
+>                             `v0.1`: Documentación iniciada.  
+>                             `v0.2`: ¡Dashboard recuperado!  
+>                             `v0.3`: Proyecto en blanco iniciado, conexión de datos, EDA inicial, primeras visualizaciones.  
+☀️ Aquí vamos. >>             `v0.4`: Diseño de modelo relacional (Llaves primarias, foráneas, dependencias, restricciones) y modelo entidad-relación (relaciones y cardinalidades).  
+>                             `v0.5`: Implementación de almacén de datos. 
+>                             `v0.6`: Realización de proceso ETL con Power Query.  
+>                             `v0.7`: Configuración del modelo semántico.  
+>                             `v0.8`: Implementación de cubo OLAP en DAX.  
+>                             `v0.9`: Confección de objetos visuales.  
+>                             `v1.0`: Dashboard terminado.  
 
 ## 🔄 Detalle de versiones
 Insights - Errores Capa 8 - Buenas prácticas.
@@ -51,7 +56,7 @@ Resultado: se perdieron los archivos originales sin posibilidad de recuperación
 ## 🔧 `v0.2`: ¡Dashboard recuperado! - ¿Cómo lo hice? - ¡Así lo hice! 2025-06-05
 ¿Cómo lo hice? Aún no lo sé, pero lo descubriré y lo plasmaré aquí.  
 Dashboard de rendimiento de campaña promocional enfocado en clientes con tarjeta de crédito aprobada.  
-![image](https://github.com/user-attachments/assets/fdf07643-e532-42cc-8f9e-547881ce3bda){:target="_blank"}
+![image](https://github.com/user-attachments/assets/fdf07643-e532-42cc-8f9e-547881ce3bdatarget="_blank")
 
 ### 💡 ¡Así lo hice! 🛠️ Recuperación manual de archivo .pbix eliminado accidentalmente
 #### 🧩 Contexto
@@ -101,6 +106,7 @@ Con el objetivo de mantener la fuente de datos accesible desde la nube, decido <
 <strong><i>Se opta por generar un enlace público para lectores.</i></strong>  
 
 #### Enlace de fuente de datos.
-  
-https://drive.google.com/file/d/19tBaQ5YbntGYRS3v10yBhrIXQ_uq3Dtc/view?usp=drive_link
+
+[https://drive.google.com/file/d/19tBaQ5YbntGYRS3v10yBhrIXQ_uq3Dtc/view?usp=drive_link:target="_blank"](https://drive.google.com/file/d/19tBaQ5YbntGYRS3v10yBhrIXQ_uq3Dtc/view?usp=drive_link:target="_blank")
+
   
