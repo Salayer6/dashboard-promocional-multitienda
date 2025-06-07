@@ -56,7 +56,7 @@ Resultado: se perdieron los archivos originales sin posibilidad de recuperación
 ## 🔧 `v0.2`: ¡Dashboard recuperado! - ¿Cómo lo hice? - ¡Así lo hice! 2025-06-05
 ¿Cómo lo hice? Aún no lo sé, pero lo descubriré y lo plasmaré aquí.  
 Dashboard de rendimiento de campaña promocional enfocado en clientes con tarjeta de crédito aprobada.  
-![image](https://github.com/user-attachments/assets/fdf07643-e532-42cc-8f9e-547881ce3bdatarget="_blank")
+
 
 ### 💡 ¡Así lo hice! 🛠️ Recuperación manual de archivo .pbix eliminado accidentalmente
 #### 🧩 Contexto
