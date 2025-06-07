@@ -8,7 +8,7 @@
 >                             `v0.5`: Implementación de almacén de datos. 
 >                             `v0.6`: Realización de proceso ETL con Power Query.  
 >                             `v0.7`: Configuración del modelo semántico.  
->                             `v0.8`: Implementación de cubo OLAP en DAX.  
+>                             `v0.8`: Implementación de cubo OLAP con DAX.  
 >                             `v0.9`: Confección de objetos visuales.  
 >                             `v1.0`: Dashboard terminado.  
 

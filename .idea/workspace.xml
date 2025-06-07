@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c852d502-bcae-4332-8e4c-1be76fd4e154" name="Changes" comment="UPDATE README.md">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="c852d502-bcae-4332-8e4c-1be76fd4e154" name="Changes" comment="UPDATE README.md &amp; CHANGELOG.md">
       <change beforePath="$PROJECT_DIR$/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/CHANGELOG.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -197,7 +195,15 @@
       <option name="project" value="LOCAL" />
       <updated>1749259586411</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="UPDATE README.md &amp; CHANGELOG.md">
+      <option name="closed" value="true" />
+      <created>1749275975835</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1749275975835</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -253,12 +259,12 @@
     <MESSAGE value="ADD directories and .pbip" />
     <MESSAGE value="UPDATE README.md typos" />
     <MESSAGE value="CREATE project structure and files (empty)" />
-    <MESSAGE value="UPDATE README.md &amp; CHANGELOG.md" />
     <MESSAGE value="UPDATE CHANGELOG.md" />
     <MESSAGE value="ADD Guía de formulación INACAP" />
     <MESSAGE value="Update README.md" />
     <MESSAGE value="ADD Dashboard.pbix v0.0" />
     <MESSAGE value="UPDATE README.md" />
-    <option name="LAST_COMMIT_MESSAGE" value="UPDATE README.md" />
+    <MESSAGE value="UPDATE README.md &amp; CHANGELOG.md" />
+    <option name="LAST_COMMIT_MESSAGE" value="UPDATE README.md &amp; CHANGELOG.md" />
   </component>
 </project>

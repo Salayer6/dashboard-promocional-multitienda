@@ -20,11 +20,11 @@ Este es un estudio de corte transversal que busca conocer los resultados luego d
 >                             `v0.1`: Documentación iniciada.  
 >                             `v0.2`: ¡Dashboard recuperado!  
 >                             `v0.3`: Proyecto en blanco iniciado, conexión de datos, EDA inicial, primeras visualizaciones.  
-☀️ Aquí vamos. >>             `v0.4`: Diseño de modelo relacional (Llaves primarias, foráneas, dependencias, restricciones) y modelo entidad-relación (relaciones y cardinalidades).  
+☀️ Aquí voy 🌖            >>  `v0.4`: Diseño de modelo relacional (Llaves primarias, foráneas, dependencias, restricciones) y modelo entidad-relación (relaciones y cardinalidades).  
 >                             `v0.5`: Implementación de almacén de datos. 
 >                             `v0.6`: Realización de proceso ETL con Power Query.  
 >                             `v0.7`: Configuración del modelo semántico.  
->                             `v0.8`: Implementación de cubo OLAP en DAX.  
+>                             `v0.8`: Implementación de cubo OLAP con DAX.  
 >                             `v0.9`: Confección de objetos visuales.  
 >                             `v1.0`: Dashboard terminado.  
 
