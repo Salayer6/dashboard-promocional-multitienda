@@ -17,18 +17,20 @@ Este es un estudio de corte transversal que busca conocer los resultados luego d
 - Python ML Notebook
 - Power BI Service
 
-## 🔄 Changelog
+## 🔄 CHANGELOG
+
 >                             `v0.0`: Intento fallido de subir Dashboard.
 >                             `v0.1`: Documentación iniciada.  
->                             `v0.2`: ¡Dashboard recuperado!  
->                             `v0.3`: Proyecto en blanco iniciado, conexión de datos, EDA inicial, primeras visualizaciones.  
-☀️ Aquí voy 🌖            >>  `v0.4`: Diseño de modelo relacional (Llaves primarias, foráneas, dependencias, restricciones) y modelo entidad-relación (relaciones y cardinalidades).  
+>                             `v0.2`: ¡Dashboard recuperado!
+<p align="center"> `v0.3`: EDA inicial, primeras visualizaciones, proyecto en blanco iniciado, conexión de datos. </p>  
+
+>                             `v0.4`: Diseño de modelo entidad-relación (entidades, relaciones y cardinalidades) e implementación de modelo relacional (Llaves candidatas, foráneas y primarias; Configurar dependencias y restricciones).
 >                             `v0.5`: Implementación de almacén de datos. 
 >                             `v0.6`: Realización de proceso ETL con Power Query.  
 >                             `v0.7`: Configuración del modelo semántico.  
 >                             `v0.8`: Implementación de cubo OLAP con DAX.  
 >                             `v0.9`: Confección de objetos visuales.  
->                             `v1.0`: Dashboard terminado.  
+>                             `v1.0`: Dashboard publicado.  
 
 El detalle de los cambios se puede ver en [CHANGELOG.md](https://github.com/Salayer6/dashboard-promocional-multitienda/blob/main/CHANGELOG.md:target="_blank")
 

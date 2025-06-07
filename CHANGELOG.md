@@ -2,16 +2,16 @@
 
 >                             `v0.0`: Intento fallido de subir Dashboard.
 >                             `v0.1`: Documentación iniciada.  
->                             `v0.2`: ¡Dashboard recuperado!  
->                             `v0.3`: EDA inicial, proyecto en blanco iniciado, conexión de datos, primeras visualizaciones.  
-<p align="center"> `v0.4`: Diseño de modelo entidad-relación (entidades, relaciones y cardinalidades) e implementación de modelo relacional (Llaves candidatas, foráneas y primarias; Configurar dependencias y restricciones). </p>  
+>                             `v0.2`: ¡Dashboard recuperado!
+<p align="center"> `v0.3`: EDA inicial, primeras visualizaciones, proyecto en blanco iniciado, conexión de datos. </p>  
 
+>                             `v0.4`: Diseño de modelo entidad-relación (entidades, relaciones y cardinalidades) e implementación de modelo relacional (Llaves candidatas, foráneas y primarias; Configurar dependencias y restricciones).
 >                             `v0.5`: Implementación de almacén de datos. 
 >                             `v0.6`: Realización de proceso ETL con Power Query.  
 >                             `v0.7`: Configuración del modelo semántico.  
 >                             `v0.8`: Implementación de cubo OLAP con DAX.  
 >                             `v0.9`: Confección de objetos visuales.  
->                             `v1.0`: Dashboard terminado.  
+>                             `v1.0`: Dashboard publicado.  
 
 ## 🔄 Detalle de versiones
 Insights - Errores Capa 8 - Buenas prácticas.
@@ -84,10 +84,11 @@ Una vez abierto y verificado, el archivo se guardó manualmente en un directorio
   
 #### 🧠 Lección aprendida
 Git no elimina archivos confirmados sin registro. Incluso si el archivo desaparece del árbol de archivos activo, su rastro permanece en el historial de commits, mientras no se hayan hecho operaciones destructivas como git gc, rebase con pérdida, o borrado del branch.
-| Acción | Qué hace | Cambia tu código local |
-| ------------------ | -------------------------------------------------------------------------- | ------------------------- |
-| **Fetch** | Descarga los cambios remotos **sin aplicarlos** | ❌ No |
-| **Pull** | Descarga los cambios remotos **y los fusiona con tu rama actual** | ✅ Sí |
+
+| Acción             | Qué hace                                                                   | Cambia tu código local    |
+|--------------------|----------------------------------------------------------------------------|---------------------------|
+| **Fetch**          | Descarga los cambios remotos **sin aplicarlos**                            | ❌ No                      |
+| **Pull**           | Descarga los cambios remotos **y los fusiona con tu rama actual**          | ✅ Sí                      |
 | **Update Project** | En PyCharm, aplica `Pull` y otras tareas de sincronización con el proyecto | ✅ Sí (depende de ajustes) |
 
 #### 🔐 Cómo evitar esta situación en el futuro
@@ -101,7 +102,7 @@ Git no elimina archivos confirmados sin registro. Incluso si el archivo desapare
 Se deja configurado el proyecto con Update Method = Rebase
 </p>
 
-## `v0.3`: Proyecto en blanco iniciado, conexión de datos, EDA inicial, primeras visualizaciones.  
+## `v0.3`: EDA inicial, primeras visualizaciones, proyecto en blanco iniciado, conexión de datos.    
 
 ### 📂 Paso 1: Publicación de la fuente de datos en Google Drive
 <p align="justify">
@@ -116,3 +117,6 @@ Con el objetivo de mantener la fuente de datos accesible desde la nube, decido <
 
 #### EDA
 
+### 📂 Paso 1:
+
+### 📂 Paso 1:
