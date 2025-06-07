@@ -6,15 +6,16 @@ Este es un estudio de corte transversal que busca conocer los resultados luego d
 </p>
 
 ## 📊 Herramientas a utilizar
-- Git y GitHub
-- PyCharm Community Edition
-- Mermaid Chart
-- Pandas EDA Notebook (Comparar eficiencia con GlueViz)
+- Git y GitHub  
+- PyCharm Community Edition  
+- Pandas EDA Notebook (Comparar eficiencia con GlueViz)  
+- Power BI Desktop  
+- Mermaid Chart  
 - `PyDrive` Notebook
   - Google Spreadsheets ➡️ (Nuevas Fuentes de datos.csv) ➡️ ETL
     - Power Query  
 - Python ML Notebook
-- Power BI Desktop & Service
+- Power BI Service
 
 ## 🔄 Changelog
 >                             `v0.0`: Intento fallido de subir Dashboard.
