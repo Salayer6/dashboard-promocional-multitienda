@@ -3,7 +3,7 @@
 >                             `v0.0`: Intento fallido de subir Dashboard.
 >                             `v0.1`: Documentación iniciada.  
 >                             `v0.2`: ¡Dashboard recuperado!  
->                             `v0.3`: Proyecto en blanco iniciado, conexión de datos, EDA inicial, primeras visualizaciones.  
+>                             `v0.3`: EDA inicial, proyecto en blanco iniciado, conexión de datos, primeras visualizaciones.  
 <p align="center"> `v0.4`: Diseño de modelo entidad-relación (entidades, relaciones y cardinalidades) e implementación de modelo relacional (Llaves candidatas, foráneas y primarias; Configurar dependencias y restricciones). </p>  
 
 >                             `v0.5`: Implementación de almacén de datos. 
@@ -114,4 +114,5 @@ Con el objetivo de mantener la fuente de datos accesible desde la nube, decido <
   https://drive.google.com/file/d/19tBaQ5YbntGYRS3v10yBhrIXQ_uq3Dtc/view?usp=drive_link
 </a>
 
-### 
+#### EDA
+
