@@ -57,7 +57,6 @@ Resultado: se perdieron los archivos originales sin posibilidad de recuperación
 ¿Cómo lo hice? Aún no lo sé, pero lo descubriré y lo plasmaré aquí.  
 Dashboard de rendimiento de campaña promocional enfocado en clientes con tarjeta de crédito aprobada.  
 
-
 ### 💡 ¡Así lo hice! 🛠️ Recuperación manual de archivo .pbix eliminado accidentalmente
 #### 🧩 Contexto
 <p align="justify">
