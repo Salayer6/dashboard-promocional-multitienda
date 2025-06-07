@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c852d502-bcae-4332-8e4c-1be76fd4e154" name="Changes" comment="UPDATE README.md &amp; CHANGELOG.md">
+    <list default="true" id="c852d502-bcae-4332-8e4c-1be76fd4e154" name="Changes" comment="ADD captura de pantalla dashboard">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/CHANGELOG.md" afterDir="false" />
     </list>
@@ -59,14 +59,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/Caso Multitienda/caso-multitienda-repository/docs&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;co.tula.mermaidchart.settings.MermaidSettingsConfigurable&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "D:/Caso Multitienda/caso-multitienda-repository/docs/Captura de pantalla 2025-06-05 225040.png",
+    "settings.editor.selected.configurable": "co.tula.mermaidchart.settings.MermaidSettingsConfigurable"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Caso Multitienda\caso-multitienda-repository\docs" />
@@ -220,7 +220,23 @@
       <option name="project" value="LOCAL" />
       <updated>1749276337457</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="UPDATE CHANGELOG.md">
+      <option name="closed" value="true" />
+      <created>1749310882680</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1749310882680</updated>
+    </task>
+    <task id="LOCAL-00018" summary="ADD captura de pantalla dashboard">
+      <option name="closed" value="true" />
+      <created>1749311543025</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1749311543025</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -276,12 +292,13 @@
     <MESSAGE value="ADD directories and .pbip" />
     <MESSAGE value="UPDATE README.md typos" />
     <MESSAGE value="CREATE project structure and files (empty)" />
-    <MESSAGE value="UPDATE CHANGELOG.md" />
     <MESSAGE value="ADD Guía de formulación INACAP" />
     <MESSAGE value="Update README.md" />
     <MESSAGE value="ADD Dashboard.pbix v0.0" />
     <MESSAGE value="UPDATE README.md" />
     <MESSAGE value="UPDATE README.md &amp; CHANGELOG.md" />
-    <option name="LAST_COMMIT_MESSAGE" value="UPDATE README.md &amp; CHANGELOG.md" />
+    <MESSAGE value="UPDATE CHANGELOG.md" />
+    <MESSAGE value="ADD captura de pantalla dashboard" />
+    <option name="LAST_COMMIT_MESSAGE" value="ADD captura de pantalla dashboard" />
   </component>
 </project>

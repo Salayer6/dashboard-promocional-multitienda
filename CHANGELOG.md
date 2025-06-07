@@ -54,8 +54,11 @@ Resultado: se perdieron los archivos originales sin posibilidad de recuperación
 > ...
 
 ## 🔧 `v0.2`: ¡Dashboard recuperado! - ¿Cómo lo hice? - ¡Así lo hice! 2025-06-05
+
+Dashboard de rendimiento de campaña promocional enfocado en clientes con tarjeta de crédito aprobada.
+![Presenta gráficos, dinámicos y segmentables, de distribución por categoría, rankings según distintas y resúmenes agregacionales de valores numéricos.](docs%2FCaptura%20de%20pantalla%202025-06-05%20225040.png "Dashboard de rendimiento de campaña promocional enfocado en clientes con tarjeta de crédito aprobada.")
 ¿Cómo lo hice? Aún no lo sé, pero lo descubriré y lo plasmaré aquí.  
-Dashboard de rendimiento de campaña promocional enfocado en clientes con tarjeta de crédito aprobada.  
+
 
 ### 💡 ¡Así lo hice! 🛠️ Recuperación manual de archivo .pbix eliminado accidentalmente
 #### 🧩 Contexto
