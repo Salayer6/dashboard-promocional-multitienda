@@ -98,13 +98,9 @@ Se deja configurado el proyecto con Update Method = Rebase
 ### 📂 Paso 1: Publicación de la fuente de datos en Google Drive
 <p align="justify">
 Con el objetivo de mantener la fuente de datos accesible desde la nube, decido <strong>subir el archivo de datos a Google Drive</strong>, lo cual permite su <strong>conexión directa desde Power BI</strong>.  
-Se opta por generar un enlace público para lectores.  
-C
+<strong><i>Se opta por generar un enlace público para lectores.</i></strong>  
 
-rear una carpeta específica para el proyecto (opcional pero recomendado).
-3. Subir el archivo `Fuentes de datos (4000 registros).csv`.
-4. Hacer clic derecho sobre el archivo → **Compartir** → Obtener enlace.
-5. Configurar el acceso como:  
-   > "Cualquier persona con el enlace puede visualizar"
-6. Copiar el enlace generado (ejemplo):
-
+#### Enlace de fuente de datos.
+  
+https://drive.google.com/file/d/19tBaQ5YbntGYRS3v10yBhrIXQ_uq3Dtc/view?usp=drive_link
+  

@@ -12,12 +12,18 @@ Este es un estudio de corte transversal que busca conocer los resultados luego d
 - [Fuente de datos: CSV, Google Spreadsheets]
 
 ## 🔄 Changelog
-- `v0.0`: Intento fallido de subir Dashboard.
+- `v0.0`: Intento fallido de subir Dashboard.  
 - `v0.1`: Documentación iniciada.  
-- `v0.2`: Dashboard recuperado!
+- `v0.2`: ¡Dashboard recuperado!  
 - `v0.3`: Proyecto en blanco iniciado, conexión de datos, EDA inicial, primeras visualizaciones.  
-[...] Aquí estamos.
-- `v1.0`: Dashboard terminado.
+- [...] ☀️ Aquí estamos.  
+- `v0.4`: Diseño de modelo relacional (Llaves primarias, foráneas, dependencias, restricciones) y modelo entidad-relación (relaciones y cardinalidades).  
+- `v0.5`: Implementación de almacén de datos. 
+- `v0.6`: Realización de proceso ETL con Power Query.  
+- `v0.7`: Configuración del modelo semántico
+- `v0.8`: Creación de objetos visuales.  
+- `v0.9`: Uso de DAX
+- `v1.0`: Dashboard terminado.  
 El detalle de los cambios se puede ver en [CHANGELOG.md](https://github.com/Salayer6/dashboard-promocional-multitienda/blob/main/CHANGELOG.md){:target="_blank"}
 
 
