@@ -4,10 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c852d502-bcae-4332-8e4c-1be76fd4e154" name="Changes" comment="UPDATE README.md&#10;ADD Pandas EDA Notebook.ipynb">
+    <list default="true" id="c852d502-bcae-4332-8e4c-1be76fd4e154" name="Changes" comment="UPDATE README.md and CHANGELOG.md">
+      <change afterPath="$PROJECT_DIR$/docs/Pandas EDA Notebook.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LICENSE for EDA Notebook" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/LICENSE for EDA Notebook" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/Pandas EDA Notebook.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/Pandas EDA Notebook.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/CHANGELOG.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebooks/Pandas EDA Notebook.ipynb" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,7 +67,7 @@
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "D:/Caso Multitienda/caso-multitienda-repository/docs/Captura de pantalla 2025-06-05 225040.png",
+    "last_opened_file_path": "D:/Caso Multitienda/caso-multitienda-repository/docs",
     "settings.editor.selected.configurable": "co.tula.mermaidchart.settings.MermaidSettingsConfigurable"
   }
 }]]></component>
@@ -74,6 +77,8 @@
       <recent name="D:\Caso Multitienda\caso-multitienda-repository\data" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Caso Multitienda\caso-multitienda-repository\notebooks" />
+      <recent name="D:\Caso Multitienda\caso-multitienda-repository\docs" />
       <recent name="D:\Caso Multitienda\caso-multitienda-repository" />
     </key>
   </component>
@@ -269,10 +274,31 @@
       <option name="project" value="LOCAL" />
       <updated>1749329456083</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="UPDATE README.md&#10;UPDATE project">
+      <option name="closed" value="true" />
+      <created>1749329775328</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1749329775328</updated>
+    </task>
+    <task id="LOCAL-00024" summary="UPDATE README.md and CHANGELOG.md">
+      <option name="closed" value="true" />
+      <created>1749332334118</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1749332334118</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
+    <option name="OPEN_GENERIC_TABS">
+      <map>
+        <entry key="dc3820cb-c18f-40fd-87dc-56f953a096ce" value="TOOL_WINDOW" />
+      </map>
+    </option>
     <option name="RECENT_FILTERS">
       <map>
         <entry key="User">
@@ -317,6 +343,11 @@
             </State>
           </value>
         </entry>
+        <entry key="dc3820cb-c18f-40fd-87dc-56f953a096ce">
+          <value>
+            <State />
+          </value>
+        </entry>
       </map>
     </option>
   </component>
@@ -334,6 +365,8 @@
     <MESSAGE value="UPDATE README.md" />
     <MESSAGE value="UPDATE README.md&#10;ADD vitácora.md (hidden)" />
     <MESSAGE value="UPDATE README.md&#10;ADD Pandas EDA Notebook.ipynb" />
-    <option name="LAST_COMMIT_MESSAGE" value="UPDATE README.md&#10;ADD Pandas EDA Notebook.ipynb" />
+    <MESSAGE value="UPDATE README.md&#10;UPDATE project" />
+    <MESSAGE value="UPDATE README.md and CHANGELOG.md" />
+    <option name="LAST_COMMIT_MESSAGE" value="UPDATE README.md and CHANGELOG.md" />
   </component>
 </project>

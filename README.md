@@ -8,7 +8,9 @@ Este es un estudio de corte transversal que busca conocer los resultados luego d
 ## 📊 Herramientas a utilizar
 - Git y GitHub  
 - PyCharm Community Edition  
-- Pandas EDA Notebook (Comparar eficiencia con GlueViz y Spyder)  
+- Spyder  
+  - Pandas EDA Notebook  
+    - Comparar eficiencia con GlueViz  
 - Power BI Desktop  
 - Mermaid Chart  
 - `PyDrive` Notebook

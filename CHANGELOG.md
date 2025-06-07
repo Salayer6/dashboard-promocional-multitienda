@@ -115,7 +115,10 @@ Con el objetivo de mantener la fuente de datos accesible desde la nube, decido <
   https://drive.google.com/file/d/19tBaQ5YbntGYRS3v10yBhrIXQ_uq3Dtc/view?usp=drive_link
 </a>
 
-#### EDA
+#### 🔠 Paso 2: Análisis exploratorio de datos y primeras visualizaciones
+
+En Spyder no se me hace necesario el uso de un proyecto, por lo que solamente configuraré la carpeta de trabajo y cargaré el notebook de referencia.
+
 
 ### 📂 Paso 1:
 
