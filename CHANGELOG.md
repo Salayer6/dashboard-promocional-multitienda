@@ -113,10 +113,15 @@ Con el objetivo de mantener la fuente de datos accesible desde la nube, decido <
 <strong><i>Se opta por generar un enlace público para lectores.</i></strong>  
 
 #### Enlace de fuente de datos.
+Prerrequisito: Instalar PyDrive desde administrador de paquetes Anaconda Navigator.
 
 <a href="https://drive.google.com/file/d/19tBaQ5YbntGYRS3v10yBhrIXQ_uq3Dtc/view?usp=drive_link" target="_blank" rel="noopener noreferrer">
 https://drive.google.com/file/d/19tBaQ5YbntGYRS3v10yBhrIXQ_uq3Dtc/view?usp=drive_link
 </a>
+
+#### Inicialización y conexión
+
+[CONTINUE]
 
 #### 🔠 Paso 2: Análisis exploratorio de datos y primeras visualizaciones
 Prerrequisito: Instalar Plugin para ejecución de Python Notebooks `spyder-notebook`.  
@@ -126,12 +131,23 @@ Usaré este notebook de referencia.
 <a href="https://github.com/Salayer6/dashboard-promocional-multitienda/blob/main/notebooks/Pandas%20EDA%20Notebook.ipynb" target="_blank" rel="noopener noreferrer">
 CAMBIAR https://github.com/Salayer6/dashboard-promocional-multitienda/blob/main/notebooks/Pandas%20EDA%20Notebook.ipynb
 </a>
-
 <p align="justify">
+
+Usando la siguiente sentencia, me di cuenta de que existe una variable que, a pesar de estar incompleta, se puede usar en análsis que admitan valores nulos.  
+<img alt="se ejecuta el método info() en la variable &#39;data&#39;." Src="docs\Captura%20de%20pantalla%202025-06-08%20170129.png" title="data.info()"/>
+
+Pero vale la pena poner un letrero que lo explicite cada vez.
+Como por ejemplo cambiar el nombre de la variable de "ACTIVIDAD" a ACTIVIDAD_95.
+>data.rename(columns={"ACTIVIDAD": "ACTIVIDAD_95"}, inplace=True)  # Ej: 95% completitud  
+>print(data.columns)
+
 Se detecta que la columna "RANGO ETARIO" se usa como índice. Se procede a eliminar esta configuración.
 </p>
 
->data = data.reset_index()
+>data = data.reset_index()  
+>print(data.[Index])
+
+
 
 <p align="justify">
 Se detecta que la columna "CUPO MÁXIMO" contiene comillas como si fuese un <i>string</i> y además contiene comas como separador de miles.<br>
@@ -148,13 +164,20 @@ Para la columna 'CUPO MÁXIMO' de la variable 'data': Reemplazar <i>comillas</i>
 
 
 
-### 📂 Bonus: Comparar con GlueViz.
+
+
+
+
+
+#### 📂 Bonus: Comparar con GlueViz.
 Hice, en 2 minutos, hice mucho más de lo que logré hice haciendo el EDA Inicial con una instancia de iPython. Incluye funciones de segmentación de datos y plantillas.  
 Desarrollar expertise en esta herramienta entregará mucho rendimiento.
 ¿Se podrá hacer configuración total de las variables en uso?
 De serlo, sería la mejor forma para realizar EDA inicial.
 
-<img alt="Segmentaciones destacadas con rojo, plantillas de gráficos." height="576" src="D:\Caso%20Multitienda\caso-multitienda-repository\docs\Captura%20de%20pantalla%202025-06-08%20155405.png" title="GlueViz - Visualizaciones rápidas" width="1024"/>
+<img alt="Segmentaciones destacadas con rojo, plantillas de gráficos." height="576" src="docs\Captura%20de%20pantalla%202025-06-08%20155405.png" title="GlueViz - Visualizaciones rápidas" width="1024"/>
+
+[CONTINUE]
 
 
 ### 📂 Paso 3: 
