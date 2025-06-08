@@ -1,0 +1,1 @@
+fuente de datos: documentada; próximo paso: EDA 07-06-2025

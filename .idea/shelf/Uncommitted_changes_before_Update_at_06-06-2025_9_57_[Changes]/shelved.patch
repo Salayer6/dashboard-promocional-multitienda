@@ -1,0 +1,149 @@
+Index: README.md
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+># Dashboard para análisis de rendimiento [Campaña promocional - Multitienda]\r\n#### Un estudio transversal por Ignacio Salas, Estudiante de Data Science. \r\n\r\n<p align=\"justify\">\r\nEste es un estudio de corte transversal que busca conocer los resultados luego de aplicar una táctica comercial enfocada en fomentar, realizando descuentos, que nuestros clientes usuarios de la tarjeta de crédito de la casa hagan uso del cupo crediticio que se les ha otorgado y, posteriormente, realizar una mirada transversal a lo acontecido para poder conocer: I. El rendimiento de la campaña (Eficacia, eficiencia y costo comparativo). II. El perfil de nuestros clientes en los que nos hemos enfocado.\r\n</p>\r\n\r\n## \uD83D\uDCCA Herramientas a utilizar\r\n- Power BI Desktop\r\n- [python + pandas]}\r\n- Git y GitHub\r\n- [Fuente de datos: CSV, Google Spreadsheets]\r\n\r\n## \uD83D\uDD04 Registro de versiones\r\n#### \uD83D\uDD27 Paso 0: Subir archivo `.pbix` - Registro del incidente – Error en sincronización Git - Aprendizaje.\r\n<p align=\"justify\">\r\nDurante la etapa inicial del proyecto, desarrollé un dashboard en Power BI de forma orgánica, sin configurar desde el principio un control de versiones. Una vez terminado, decidí subir el producto final a GitHub como parte de mi portafolio.\r\n</p>\r\n\r\n#### \uD83E\uDDE8 Lo que ocurrió\r\nAl sincronizar los archivos locales con el repositorio remoto en GitHub, cometí una serie de pasos, lo que provocó la eliminación irreversible de archivos clave, incluyendo el archivo `.pbix` y el dataset original.\r\n\r\n#### \uD83E\uDDF5 Secuencia problemática.\r\nSe creó un nuevo proyecto en PyCharm, el cual usa por defecto la rama `master`.  \r\nSe configuró el directorio del proyecto apuntando a una carpeta que ya contenía el dashboard final y los archivos de datos.  \r\nSe agregó un `remote`, alias `origin` apuntando a un repositorio de GitHub cuyo branch principal era `main`.  \r\nEn ese punto, existía una incompatibilidad entre ramas locales y remotas (`master` vs `main`) y una discrepancia de archivos: Git no reconocía los archivos existentes como parte del historial de cambios del repositorio remoto.  \r\nAl intentar sincronizar, el sistema de control de versiones interpretó que los archivos locales no estaban versionados correctamente y los eliminó del proyecto local para ajustarse al contenido del remoto (solamente existía README.md).  \r\nResultado: se perdieron los archivos originales sin posibilidad de recuperación directa.\r\n\r\n### \uD83D\uDEE1\uFE0F Cómo evitar este error en el futuro\r\n#### ✅ Buenas prácticas al trabajar con Git y proyectos existentes\r\n| Situación | Recomendación clara |\r\n|--------------|--------------|\r\n| Quieres versionar archivos ya creados localmente | Primero crear el repo en GitHub sin README ni archivos y clonar el repo vacío. Luego mover tus archivos ahí |\r\n| Usas IDE como PyCharm | Asegúrate de que la rama local (`master` o `main`) coincida con la del remoto, o crea una nueva rama sincronizada |\r\n| Configuras Git en carpeta con archivos previos | Realiza primero un `git init`, luego `git add .`, `git commit -m \"Inicio\"`, y después agrega el remote con `git remote add origin <URL>` |\r\n| Inicias con archivos en la carpeta pero sin control de versiones | Crea backup de seguridad antes de agregar Git, especialmente si hay riesgo de sobrescritura|\r\n\r\n\uD83E\uDDE0 Lección aprendida\r\n> \"Git no es solo un respaldo. Es un sistema de control de versiones que, mal usado, puede forzar el borrado de archivos locales si interpreta que no deben estar ahí.\"\r\n\r\n## \uD83D\uDD04Changelog\r\n- `v0.1`: Documentación iniciada.\r\n- `v0.2`: Proyecto iniciado, conexión de datos, EDA inicial, primeras visualizaciones\r\n- `v1.0`: Dashboard terminado\r\n\r\n## \uD83D\uDCDC Licencia\r\nEste proyecto está licenciado bajo GNU Affero General Public License v3.0 (AGPL-3.0).\r\n\r\nHe elegido esta licencia porque creo en la colaboración abierta, pero también en la reciprocidad. Si alguien utiliza este código como base para ofrecer un servicio en línea (por ejemplo, dashboards públicos o soluciones comerciales), esta licencia asegura que las mejoras y adaptaciones sean compartidas con la comunidad bajo los mismos términos.\r\n\r\nEn otras palabras: puedes estudiar, usar y modificar este software libremente, pero si decides ponerlo en producción como parte de un servicio o producto, deberás también liberar tu versión bajo AGPL.\r\n\r\nEsto permite que el conocimiento circule, que se valore el trabajo invertido y que no se privatice lo que nace como un esfuerzo comunitario.\r\n\r\nSi tienes alguna duda, necesidad especial  o quieres negociar una licencia alternativa para uso cerrado o comercial, puedes escribirme directamente.\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/README.md b/README.md
+--- a/README.md	(revision 1ea52ec9986ec3e116f07f33434ab5d8c4c04e1f)
++++ b/README.md	(date 1749218241340)
+@@ -1,4 +1,4 @@
+-# Dashboard para análisis de rendimiento [Campaña promocional - Multitienda]
++## Dashboard para análisis de rendimiento [Campaña promocional - Multitienda]
+ #### Un estudio transversal por Ignacio Salas, Estudiante de Data Science. 
+ 
+ <p align="justify">
+@@ -24,18 +24,18 @@
+ Se creó un nuevo proyecto en PyCharm, el cual usa por defecto la rama `master`.  
+ Se configuró el directorio del proyecto apuntando a una carpeta que ya contenía el dashboard final y los archivos de datos.  
+ Se agregó un `remote`, alias `origin` apuntando a un repositorio de GitHub cuyo branch principal era `main`.  
+-En ese punto, existía una incompatibilidad entre ramas locales y remotas (`master` vs `main`) y una discrepancia de archivos: Git no reconocía los archivos existentes como parte del historial de cambios del repositorio remoto.  
++En ese punto, existía una incompatibilidad entre ramas locales y remotas (`master` vs. `main`) y una discrepancia de archivos: Git no reconocía los archivos existentes como parte del historial de cambios del repositorio remoto.  
+ Al intentar sincronizar, el sistema de control de versiones interpretó que los archivos locales no estaban versionados correctamente y los eliminó del proyecto local para ajustarse al contenido del remoto (solamente existía README.md).  
+ Resultado: se perdieron los archivos originales sin posibilidad de recuperación directa.
+ 
+ ### 🛡️ Cómo evitar este error en el futuro
+ #### ✅ Buenas prácticas al trabajar con Git y proyectos existentes
+-| Situación | Recomendación clara |
+-|--------------|--------------|
+-| Quieres versionar archivos ya creados localmente | Primero crear el repo en GitHub sin README ni archivos y clonar el repo vacío. Luego mover tus archivos ahí |
+-| Usas IDE como PyCharm | Asegúrate de que la rama local (`master` o `main`) coincida con la del remoto, o crea una nueva rama sincronizada |
+-| Configuras Git en carpeta con archivos previos | Realiza primero un `git init`, luego `git add .`, `git commit -m "Inicio"`, y después agrega el remote con `git remote add origin <URL>` |
+-| Inicias con archivos en la carpeta pero sin control de versiones | Crea backup de seguridad antes de agregar Git, especialmente si hay riesgo de sobrescritura|
++| Situación                                                        | Recomendación clara                                                                                                                      |
++|------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------|
++| Quieres versionar archivos ya creados localmente                 | Primero crear el repo en GitHub sin README ni archivos y clonar el repo vacío. Luego mover tus archivos ahí                              |
++| Usas IDE como PyCharm                                            | Asegúrate de que la rama local (`master` o `main`) coincida con la del remoto, o crea una nueva rama sincronizada                        |
++| Configuras Git en carpeta con archivos previos                   | Realiza primero un `git init`, luego `git add .`, `git commit -m "Inicio"`, y después agrega el remote con `git remote add origin <URL>` |
++| Inicias con archivos en la carpeta pero sin control de versiones | Crea backup de seguridad antes de agregar Git, especialmente si hay riesgo de sobrescritura                                              |
+ 
+ 🧠 Lección aprendida
+ > "Git no es solo un respaldo. Es un sistema de control de versiones que, mal usado, puede forzar el borrado de archivos locales si interpreta que no deben estar ahí."
+@@ -54,4 +54,4 @@
+ 
+ Esto permite que el conocimiento circule, que se valore el trabajo invertido y que no se privatice lo que nace como un esfuerzo comunitario.
+ 
+-Si tienes alguna duda, necesidad especial  o quieres negociar una licencia alternativa para uso cerrado o comercial, puedes escribirme directamente.
++Si tienes alguna duda, necesidad especial o quieres negociar una licencia alternativa para uso cerrado o comercial, puedes escribirme directamente.
+Index: .idea/misc.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"ProjectRootManager\" version=\"2\" project-jdk-name=\"Python 3.13 (Gateway to Pandas)\" project-jdk-type=\"Python SDK\" />\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/misc.xml b/.idea/misc.xml
+--- a/.idea/misc.xml	(revision 1ea52ec9986ec3e116f07f33434ab5d8c4c04e1f)
++++ b/.idea/misc.xml	(date 1749217041181)
+@@ -1,4 +1,7 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+ <project version="4">
++  <component name="Black">
++    <option name="sdkName" value="Python 3.13 (Gateway to Pandas)" />
++  </component>
+   <component name="ProjectRootManager" version="2" project-jdk-name="Python 3.13 (Gateway to Pandas)" project-jdk-type="Python SDK" />
+ </project>
+\ No newline at end of file
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"c852d502-bcae-4332-8e4c-1be76fd4e154\" name=\"Changes\" comment=\"ADD directories\">\r\n      <change afterPath=\"$PROJECT_DIR$/dashboard/Dashboard de campaña promocional para multitienda - Célula de Inteligencia de negocios.pbix\" afterDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <excluded-from-favorite>\r\n      <branch-storage>\r\n        <map>\r\n          <entry type=\"LOCAL\">\r\n            <value>\r\n              <list>\r\n                <branch-info repo=\"$PROJECT_DIR$\" source=\"master\" />\r\n              </list>\r\n            </value>\r\n          </entry>\r\n        </map>\r\n      </branch-storage>\r\n    </excluded-from-favorite>\r\n    <option name=\"RECENT_BRANCH_BY_REPOSITORY\">\r\n      <map>\r\n        <entry key=\"$PROJECT_DIR$\" value=\"master\" />\r\n      </map>\r\n    </option>\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n    <option name=\"UPDATE_TYPE\" value=\"REBASE\" />\r\n  </component>\r\n  <component name=\"GitHubPullRequestSearchHistory\">{\r\n  &quot;lastFilter&quot;: {\r\n    &quot;state&quot;: &quot;OPEN&quot;,\r\n    &quot;assignee&quot;: &quot;Salayer6&quot;\r\n  }\r\n}</component>\r\n  <component name=\"GithubPullRequestsUISettings\">{\r\n  &quot;selectedUrlAndAccountId&quot;: {\r\n    &quot;url&quot;: &quot;https://github.com/Salayer6/dashboard-promocional-multitienda&quot;,\r\n    &quot;accountId&quot;: &quot;eacc0840-a2f1-40fa-a65d-22e3287393a3&quot;\r\n  }\r\n}</component>\r\n  <component name=\"ProjectColorInfo\">{\r\n  &quot;associatedIndex&quot;: 7\r\n}</component>\r\n  <component name=\"ProjectId\" id=\"2y4NV2f278XnfKPxryBun13Evnr\" />\r\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\" />\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\"><![CDATA[{\r\n  \"keyToString\": {\r\n    \"RunOnceActivity.ShowReadmeOnStart\": \"true\",\r\n    \"git-widget-placeholder\": \"main\",\r\n    \"last_opened_file_path\": \"D:/Caso Multitienda/caso-multitienda-repository\",\r\n    \"settings.editor.selected.configurable\": \"vcs.log\"\r\n  }\r\n}]]></component>\r\n  <component name=\"SharedIndexes\">\r\n    <attachedChunks>\r\n      <set>\r\n        <option value=\"bundled-python-sdk-d7ad00fb9fc3-c546a90a8094-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-242.23726.102\" />\r\n      </set>\r\n    </attachedChunks>\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"c852d502-bcae-4332-8e4c-1be76fd4e154\" name=\"Changes\" comment=\"\" />\r\n      <created>1749089905956</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1749089905956</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00001\" summary=\"ADD directories\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1749091963430</created>\r\n      <option name=\"number\" value=\"00001\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1749091963430</updated>\r\n    </task>\r\n    <option name=\"localTasksCounter\" value=\"2\" />\r\n    <servers />\r\n  </component>\r\n  <component name=\"Vcs.Log.Tabs.Properties\">\r\n    <option name=\"RECENT_FILTERS\">\r\n      <map>\r\n        <entry key=\"User\">\r\n          <value>\r\n            <list>\r\n              <RecentGroup>\r\n                <option name=\"FILTER_VALUES\">\r\n                  <option value=\"*\" />\r\n                </option>\r\n              </RecentGroup>\r\n            </list>\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n    <option name=\"TAB_STATES\">\r\n      <map>\r\n        <entry key=\"MAIN\">\r\n          <value>\r\n            <State>\r\n              <option name=\"CUSTOM_BOOLEAN_PROPERTIES\">\r\n                <map>\r\n                  <entry key=\"Show.Git.Branches\" value=\"true\" />\r\n                </map>\r\n              </option>\r\n              <option name=\"FILTERS\">\r\n                <map>\r\n                  <entry key=\"branch\">\r\n                    <value>\r\n                      <list>\r\n                        <option value=\"origin/main\" />\r\n                      </list>\r\n                    </value>\r\n                  </entry>\r\n                </map>\r\n              </option>\r\n              <option name=\"TEXT_FILTER_SETTINGS\">\r\n                <TextFilterSettings>\r\n                  <option name=\"MATCH_CASE\" value=\"true\" />\r\n                </TextFilterSettings>\r\n              </option>\r\n            </State>\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <MESSAGE value=\"ADD directories\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"ADD directories\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision 1ea52ec9986ec3e116f07f33434ab5d8c4c04e1f)
++++ b/.idea/workspace.xml	(date 1749218241428)
+@@ -4,8 +4,10 @@
+     <option name="autoReloadType" value="SELECTIVE" />
+   </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="c852d502-bcae-4332-8e4c-1be76fd4e154" name="Changes" comment="ADD directories">
+-      <change afterPath="$PROJECT_DIR$/dashboard/Dashboard de campaña promocional para multitienda - Célula de Inteligencia de negocios.pbix" afterDir="false" />
++    <list default="true" id="c852d502-bcae-4332-8e4c-1be76fd4e154" name="Changes" comment="ADD directories and .pbip">
++      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -46,6 +48,9 @@
+     &quot;accountId&quot;: &quot;eacc0840-a2f1-40fa-a65d-22e3287393a3&quot;
+   }
+ }</component>
++  <component name="ProblemsViewState">
++    <option name="selectedTabId" value="CurrentFile" />
++  </component>
+   <component name="ProjectColorInfo">{
+   &quot;associatedIndex&quot;: 7
+ }</component>
+@@ -55,14 +60,14 @@
+     <option name="hideEmptyMiddlePackages" value="true" />
+     <option name="showLibraryContents" value="true" />
+   </component>
+-  <component name="PropertiesComponent"><![CDATA[{
+-  "keyToString": {
+-    "RunOnceActivity.ShowReadmeOnStart": "true",
+-    "git-widget-placeholder": "main",
+-    "last_opened_file_path": "D:/Caso Multitienda/caso-multitienda-repository",
+-    "settings.editor.selected.configurable": "vcs.log"
++  <component name="PropertiesComponent">{
++  &quot;keyToString&quot;: {
++    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
++    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
++    &quot;last_opened_file_path&quot;: &quot;C:/Users/naxhito/Downloads/es.242.267.jar&quot;,
++    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.language.and.region&quot;
+   }
+-}]]></component>
++}</component>
+   <component name="SharedIndexes">
+     <attachedChunks>
+       <set>
+@@ -87,7 +92,15 @@
+       <option name="project" value="LOCAL" />
+       <updated>1749091963430</updated>
+     </task>
+-    <option name="localTasksCounter" value="2" />
++    <task id="LOCAL-00002" summary="ADD directories and .pbip">
++      <option name="closed" value="true" />
++      <created>1749177489831</created>
++      <option name="number" value="00002" />
++      <option name="presentableId" value="LOCAL-00002" />
++      <option name="project" value="LOCAL" />
++      <updated>1749177489831</updated>
++    </task>
++    <option name="localTasksCounter" value="3" />
+     <servers />
+   </component>
+   <component name="Vcs.Log.Tabs.Properties">
+@@ -140,6 +153,7 @@
+   </component>
+   <component name="VcsManagerConfiguration">
+     <MESSAGE value="ADD directories" />
+-    <option name="LAST_COMMIT_MESSAGE" value="ADD directories" />
++    <MESSAGE value="ADD directories and .pbip" />
++    <option name="LAST_COMMIT_MESSAGE" value="ADD directories and .pbip" />
+   </component>
+ </project>
+\ No newline at end of file
