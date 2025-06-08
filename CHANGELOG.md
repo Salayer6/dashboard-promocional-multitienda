@@ -57,7 +57,7 @@ Resultado: se perdieron los archivos originales sin posibilidad de recuperación
 ## 🔧 `v0.2`: ¡Dashboard recuperado! - ¿Cómo lo hice? - ¡Así lo hice! 2025-06-05
 
 Dashboard de rendimiento de campaña promocional enfocado en clientes con tarjeta de crédito aprobada.
-![Presenta gráficos, dinámicos y segmentables, de distribución por categoría, rankings según distintas y resúmenes agregacionales de valores numéricos.](docs%2FCaptura%20de%20pantalla%202025-06-05%20225040.png "Dashboard de rendimiento de campaña promocional enfocado en clientes con tarjeta de crédito aprobada.")
+<img alt="Presenta gráficos, dinámicos y segmentables, de distribución por categoría, rankings según distintas y resúmenes agregacionales de valores numéricos." Src="docs%2FCaptura%20de%20pantalla%202025-06-05%20225040.png" title="Dashboard de rendimiento de campaña promocional enfocado en clientes con tarjeta de crédito aprobada."/>
 
 <strong><i><p align="justify">¿Cómo lo hice? Aún no lo sé, pero lo descubriré y lo plasmaré aquí.</p></i></strong>
 
@@ -103,6 +103,9 @@ Se deja configurado el proyecto con Update Method = Rebase
 </p>
 
 ## `v0.3`: EDA inicial, primeras visualizaciones, proyecto en blanco iniciado, conexión de datos.    
+### Paso 0: Instalar librerías necesarias.  
+Paquetes necesarios: numpy, pandas, matplotlib.pyplot, seaborn, pydrive.
+En este caso serán instalados desde el instalador de paquetes de Anaconda Navigator.
 
 ### 📂 Paso 1: Publicación de la fuente de datos en Google Drive
 <p align="justify">
@@ -116,16 +119,42 @@ https://drive.google.com/file/d/19tBaQ5YbntGYRS3v10yBhrIXQ_uq3Dtc/view?usp=drive
 </a>
 
 #### 🔠 Paso 2: Análisis exploratorio de datos y primeras visualizaciones
-Pre-requisito: Instalar Plugin para ejecución de Python Notebooks.
-En Spyder no se me hace necesario el uso de un proyecto, por lo que solamente configuraré la carpeta de trabajo.
+Prerrequisito: Instalar Plugin para ejecución de Python Notebooks `spyder-notebook`.  
+En Spyder no se me hace necesario el uso de un proyecto, por lo que solamente configuraré la carpeta de trabajo.  
 
 Usaré este notebook de referencia.  
 <a href="https://github.com/Salayer6/dashboard-promocional-multitienda/blob/main/notebooks/Pandas%20EDA%20Notebook.ipynb" target="_blank" rel="noopener noreferrer">
-https://github.com/Salayer6/dashboard-promocional-multitienda/blob/main/notebooks/Pandas%20EDA%20Notebook.ipynb
+CAMBIAR https://github.com/Salayer6/dashboard-promocional-multitienda/blob/main/notebooks/Pandas%20EDA%20Notebook.ipynb
 </a>
 
+<p align="justify">
+Se detecta que la columna "RANGO ETARIO" se usa como índice. Se procede a eliminar esta configuración.
+</p>
+
+>data = data.reset_index()
+
+<p align="justify">
+Se detecta que la columna "CUPO MÁXIMO" contiene comillas como si fuese un <i>string</i> y además contiene comas como separador de miles.<br>
+Se procede a corregir con la siguiente sentencia:<br>
+Para la columna 'CUPO MÁXIMO' de la variable 'data': Reemplazar <i>comillas</i> y <i>comas</i> con <i>nada</i>, luego convertir el valor a tipo 'Numérico entero'.
+</p>
+
+> data["CUPO MÁXIMO"] = (
+>    data["CUPO MÁXIMO"]
+>    .astype(str)
+>    .str.replace(r'[\,,\"]', '', regex=True)
+>    .astype("int64")
+>)
 
 
-### 📂 Paso 1:
 
-### 📂 Paso 1:
+### 📂 Bonus: Comparar con GlueViz.
+Hice, en 2 minutos, hice mucho más de lo que logré hice haciendo el EDA Inicial con una instancia de iPython. Incluye funciones de segmentación de datos y plantillas.  
+Desarrollar expertise en esta herramienta entregará mucho rendimiento.
+¿Se podrá hacer configuración total de las variables en uso?
+De serlo, sería la mejor forma para realizar EDA inicial.
+
+<img alt="Segmentaciones destacadas con rojo, plantillas de gráficos." height="576" src="D:\Caso%20Multitienda\caso-multitienda-repository\docs\Captura%20de%20pantalla%202025-06-08%20155405.png" title="GlueViz - Visualizaciones rápidas" width="1024"/>
+
+
+### 📂 Paso 3: 

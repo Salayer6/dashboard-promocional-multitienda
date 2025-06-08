@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c852d502-bcae-4332-8e4c-1be76fd4e154" name="Changes" comment="update">
+    <list default="true" id="c852d502-bcae-4332-8e4c-1be76fd4e154" name="Changes" comment="UPDATE CHANGELOG.md">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/CHANGELOG.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebooks/LICENSE for EDA Notebook" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebooks/Pandas EDA Notebook.ipynb" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +65,7 @@
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "D:/Caso Multitienda/caso-multitienda-repository/notebooks/Pandas EDA Notebook.ipynb",
+    "last_opened_file_path": "D:/Caso Multitienda/caso-multitienda-repository/docs/Captura de pantalla 2025-06-08 155405.png",
     "run.code.analysis.last.selected.profile": "pProject Default",
     "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
@@ -310,7 +312,15 @@
       <option name="project" value="LOCAL" />
       <updated>1749335952229</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="UPDATE CHANGELOG.md">
+      <option name="closed" value="true" />
+      <created>1749345198313</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1749345198313</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -380,7 +390,6 @@
     <MESSAGE value="Update README.md" />
     <MESSAGE value="ADD Dashboard.pbix v0.0" />
     <MESSAGE value="UPDATE README.md &amp; CHANGELOG.md" />
-    <MESSAGE value="UPDATE CHANGELOG.md" />
     <MESSAGE value="ADD captura de pantalla dashboard" />
     <MESSAGE value="UPDATE README.md" />
     <MESSAGE value="UPDATE README.md&#10;ADD vitácora.md (hidden)" />
@@ -389,6 +398,7 @@
     <MESSAGE value="UPDATE README.md and CHANGELOG.md" />
     <MESSAGE value="ADD Pandas EDA Notebook.ipynb" />
     <MESSAGE value="update" />
-    <option name="LAST_COMMIT_MESSAGE" value="update" />
+    <MESSAGE value="UPDATE CHANGELOG.md" />
+    <option name="LAST_COMMIT_MESSAGE" value="UPDATE CHANGELOG.md" />
   </component>
 </project>
