@@ -4,13 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c852d502-bcae-4332-8e4c-1be76fd4e154" name="Changes" comment="UPDATE README.md and CHANGELOG.md">
-      <change afterPath="$PROJECT_DIR$/docs/Pandas EDA Notebook.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img.png" afterDir="false" />
+    <list default="true" id="c852d502-bcae-4332-8e4c-1be76fd4e154" name="Changes" comment="update">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/CHANGELOG.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notebooks/Pandas EDA Notebook.ipynb" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,8 +63,9 @@
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "D:/Caso Multitienda/caso-multitienda-repository/docs",
-    "settings.editor.selected.configurable": "co.tula.mermaidchart.settings.MermaidSettingsConfigurable"
+    "last_opened_file_path": "D:/Caso Multitienda/caso-multitienda-repository/notebooks/Pandas EDA Notebook.ipynb",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -81,6 +78,13 @@
       <recent name="D:\Caso Multitienda\caso-multitienda-repository\docs" />
       <recent name="D:\Caso Multitienda\caso-multitienda-repository" />
     </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="CompoundRunConfigurationType" />
+      </set>
+    </option>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -290,7 +294,23 @@
       <option name="project" value="LOCAL" />
       <updated>1749332334118</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="ADD Pandas EDA Notebook.ipynb">
+      <option name="closed" value="true" />
+      <created>1749334256441</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1749334256441</updated>
+    </task>
+    <task id="LOCAL-00026" summary="update">
+      <option name="closed" value="true" />
+      <created>1749335952229</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1749335952229</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -367,6 +387,8 @@
     <MESSAGE value="UPDATE README.md&#10;ADD Pandas EDA Notebook.ipynb" />
     <MESSAGE value="UPDATE README.md&#10;UPDATE project" />
     <MESSAGE value="UPDATE README.md and CHANGELOG.md" />
-    <option name="LAST_COMMIT_MESSAGE" value="UPDATE README.md and CHANGELOG.md" />
+    <MESSAGE value="ADD Pandas EDA Notebook.ipynb" />
+    <MESSAGE value="update" />
+    <option name="LAST_COMMIT_MESSAGE" value="update" />
   </component>
 </project>

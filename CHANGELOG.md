@@ -112,12 +112,17 @@ Con el objetivo de mantener la fuente de datos accesible desde la nube, decido <
 #### Enlace de fuente de datos.
 
 <a href="https://drive.google.com/file/d/19tBaQ5YbntGYRS3v10yBhrIXQ_uq3Dtc/view?usp=drive_link" target="_blank" rel="noopener noreferrer">
-  https://drive.google.com/file/d/19tBaQ5YbntGYRS3v10yBhrIXQ_uq3Dtc/view?usp=drive_link
+https://drive.google.com/file/d/19tBaQ5YbntGYRS3v10yBhrIXQ_uq3Dtc/view?usp=drive_link
 </a>
 
 #### 🔠 Paso 2: Análisis exploratorio de datos y primeras visualizaciones
 Pre-requisito: Instalar Plugin para ejecución de Python Notebooks.
-En Spyder no se me hace necesario el uso de un proyecto, por lo que solamente configuraré la carpeta de trabajo y cargaré el notebook de referencia.
+En Spyder no se me hace necesario el uso de un proyecto, por lo que solamente configuraré la carpeta de trabajo.
+
+Usaré este notebook de referencia.  
+<a href="https://github.com/Salayer6/dashboard-promocional-multitienda/blob/main/notebooks/Pandas%20EDA%20Notebook.ipynb" target="_blank" rel="noopener noreferrer">
+https://github.com/Salayer6/dashboard-promocional-multitienda/blob/main/notebooks/Pandas%20EDA%20Notebook.ipynb
+</a>
 
 
 
