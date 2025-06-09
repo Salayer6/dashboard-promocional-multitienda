@@ -1,9 +1,9 @@
 # 🔄 CHANGELOG
 
->                             `v0.0`: Intento fallido de subir Dashboard.
->                             `v0.1`: Documentación iniciada.  
->                             `v0.2`: ¡Dashboard recuperado!
-<p align="center"> `v0.3`: EDA inicial, primeras visualizaciones, proyecto en blanco iniciado, conexión de datos. </p>  
+>                             `v0.0`: Intento fallido de subir Dashboard. - 2025-06-04  
+>                             `v0.1`: Documentación iniciada. - 2025-06-05  
+>                             `v0.2`: ¡Dashboard recuperado! - 2025-06-05  
+<p align="center"> `v0.3`: EDA inicial, primeras visualizaciones, proyecto en blanco iniciado, conexión de datos  - 2025-06-08   </p>  
 
 >                             `v0.4`: Diseño de modelo entidad-relación (entidades, relaciones y cardinalidades) e implementación de modelo relacional (Llaves candidatas, foráneas y primarias; Configurar dependencias y restricciones).
 >                             `v0.5`: Implementación de almacén de datos. 
@@ -54,7 +54,7 @@ Resultado: se perdieron los archivos originales sin posibilidad de recuperación
 > Markdown language skills: +1!  
 > ...
 
-## 🔧 `v0.2`: ¡Dashboard recuperado! - ¿Cómo lo hice? - ¡Así lo hice! 2025-06-05
+## 🔧 `v0.2`: ¡Dashboard recuperado! - ¿Cómo lo hice? - ¡Así lo hice! - 2025-06-05  
 
 Dashboard de rendimiento de campaña promocional enfocado en clientes con tarjeta de crédito aprobada.
 <img alt="Presenta gráficos, dinámicos y segmentables, de distribución por categoría, rankings según distintas y resúmenes agregacionales de valores numéricos." Src="docs%2FCaptura%20de%20pantalla%202025-06-05%20225040.png" title="Dashboard de rendimiento de campaña promocional enfocado en clientes con tarjeta de crédito aprobada."/>
@@ -102,7 +102,7 @@ Git no elimina archivos confirmados sin registro. Incluso si el archivo desapare
 Se deja configurado el proyecto con Update Method = Rebase
 </p>
 
-## `v0.3`: EDA inicial, primeras visualizaciones, proyecto en blanco iniciado, conexión de datos.    
+## `v0.3`: EDA inicial, primeras visualizaciones, proyecto en blanco iniciado, conexión de datos - 2025-06-08  
 ### Paso 0: Instalar librerías necesarias.  
 Paquetes necesarios: numpy, pandas, matplotlib.pyplot, seaborn, pydrive.
 En este caso serán instalados desde el instalador de paquetes de Anaconda Navigator.

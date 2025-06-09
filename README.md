@@ -23,16 +23,16 @@ Este es un estudio de corte transversal que busca conocer los resultados luego d
 
 ## 🔄 CHANGELOG
 
->                             `v0.0`: Intento fallido de subir Dashboard.
->                             `v0.1`: Documentación iniciada.  
->                             `v0.2`: ¡Dashboard recuperado!
-<p align="center"> `v0.3`: EDA inicial, primeras visualizaciones, proyecto en blanco iniciado, conexión de datos. </p>  
+>                             `v0.0`: Intento fallido de subir Dashboard. - 2025-06-04  
+>                             `v0.1`: Documentación iniciada. - 2025-06-05  
+>                             `v0.2`: ¡Dashboard recuperado! - 2025-06-05  
+<p align="center"> `v0.3`: EDA inicial, primeras visualizaciones, proyecto en blanco iniciado, conexión de datos  - 2025-06-08   </p>  
 
 >                             `v0.4`: Diseño de modelo entidad-relación (entidades, relaciones y cardinalidades) e implementación de modelo relacional (Llaves candidatas, foráneas y primarias; Configurar dependencias y restricciones).
 >                             `v0.5`: Implementación de almacén de datos. 
 >                             `v0.6`: Realización de proceso ETL con Power Query.  
 >                             `v0.7`: Configuración del modelo semántico.  
->                             `v0.8`: Implementación de cubo OLAP con DAX.  
+>                             `v0.8`: Implementación de cubo OLAP (tabla de hechos, tablas de dimensiones de entidades) con DAX.  
 >                             `v0.9`: Confección de objetos visuales.  
 >                             `v1.0`: Dashboard publicado.  
 

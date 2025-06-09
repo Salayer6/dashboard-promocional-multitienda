@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c852d502-bcae-4332-8e4c-1be76fd4e154" name="Changes" comment="UPDATE CHANGELOG.md &amp; README.md" />
+    <list default="true" id="c852d502-bcae-4332-8e4c-1be76fd4e154" name="Changes" comment="UPDATE README.md" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -363,7 +363,15 @@
       <option name="project" value="LOCAL" />
       <updated>1749430365261</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="UPDATE README.md">
+      <option name="closed" value="true" />
+      <created>1749430694878</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1749430694878</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -434,7 +442,6 @@
     <MESSAGE value="ADD Dashboard.pbix v0.0" />
     <MESSAGE value="UPDATE README.md &amp; CHANGELOG.md" />
     <MESSAGE value="ADD captura de pantalla dashboard" />
-    <MESSAGE value="UPDATE README.md" />
     <MESSAGE value="UPDATE README.md&#10;ADD vitácora.md (hidden)" />
     <MESSAGE value="UPDATE README.md&#10;ADD Pandas EDA Notebook.ipynb" />
     <MESSAGE value="UPDATE README.md&#10;UPDATE project" />
@@ -447,6 +454,7 @@
     <MESSAGE value="UPDATE Project EDA Pandas Notebook.ipynb&#10;ADD auxiliary docs" />
     <MESSAGE value="UPDATE CHANGELOG.md EDA Inicial" />
     <MESSAGE value="UPDATE CHANGELOG.md &amp; README.md" />
-    <option name="LAST_COMMIT_MESSAGE" value="UPDATE CHANGELOG.md &amp; README.md" />
+    <MESSAGE value="UPDATE README.md" />
+    <option name="LAST_COMMIT_MESSAGE" value="UPDATE README.md" />
   </component>
 </project>
