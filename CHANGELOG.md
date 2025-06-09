@@ -3,7 +3,8 @@
 >                             `v0.0`: Intento fallido de subir Dashboard. - 2025-06-04  
 >                             `v0.1`: Documentación iniciada. - 2025-06-05  
 >                             `v0.2`: ¡Dashboard recuperado! - 2025-06-05  
-<p align="center"> `v0.3`: EDA inicial, primeras visualizaciones, proyecto en blanco iniciado, conexión de datos  - 2025-06-08   </p>  
+
+<p align="center">☀️ Aquí vamos 🌖<br> <code> _v0.3_</code>: EDA inicial, primeras visualizaciones, proyecto en blanco iniciado, conexión de datos  - 2025-06-08   </p>  
 
 >                             `v0.4`: Diseño de modelo entidad-relación (entidades, relaciones y cardinalidades) e implementación de modelo relacional (Llaves candidatas, foráneas y primarias; Configurar dependencias y restricciones).
 >                             `v0.5`: Implementación de almacén de datos. 
