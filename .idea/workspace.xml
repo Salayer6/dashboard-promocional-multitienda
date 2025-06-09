@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c852d502-bcae-4332-8e4c-1be76fd4e154" name="Changes" comment="UPDATE README.md" />
+    <list default="true" id="c852d502-bcae-4332-8e4c-1be76fd4e154" name="Changes" comment="UPDATE CHANGELOG.md &amp; README.md">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/CHANGELOG.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -371,7 +375,15 @@
       <option name="project" value="LOCAL" />
       <updated>1749430694878</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="UPDATE CHANGELOG.md &amp; README.md">
+      <option name="closed" value="true" />
+      <created>1749431097789</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1749431097789</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -453,8 +465,8 @@
     <MESSAGE value="UPDATE Project EDA Pandas Notebook.ipynb" />
     <MESSAGE value="UPDATE Project EDA Pandas Notebook.ipynb&#10;ADD auxiliary docs" />
     <MESSAGE value="UPDATE CHANGELOG.md EDA Inicial" />
-    <MESSAGE value="UPDATE CHANGELOG.md &amp; README.md" />
     <MESSAGE value="UPDATE README.md" />
-    <option name="LAST_COMMIT_MESSAGE" value="UPDATE README.md" />
+    <MESSAGE value="UPDATE CHANGELOG.md &amp; README.md" />
+    <option name="LAST_COMMIT_MESSAGE" value="UPDATE CHANGELOG.md &amp; README.md" />
   </component>
 </project>
