@@ -6,7 +6,9 @@
 
 <p align="center">☀️ Aquí vamos 🌖<br> <code> _v0.3_</code>: EDA inicial, primeras visualizaciones, proyecto en blanco iniciado, conexión de datos  - 2025-06-08   </p>  
 
->                             `v0.4`: Diseño de modelo entidad-relación (entidades, relaciones y cardinalidades) e implementación de modelo relacional (Llaves candidatas, foráneas y primarias; Configurar dependencias y restricciones).
+>                             `v0.4`: Diseño de modelo entidad-relación (entidades, relaciones y cardinalidades)
+>                           e implementación de modelo relacional (Llaves candidatas, foráneas y primarias;
+>                           Configurar dependencias y restricciones).
 >                             `v0.5`: Implementación de almacén de datos. 
 >                             `v0.6`: Realización de proceso ETL con Power Query.  
 >                             `v0.7`: Configuración del modelo semántico.  
@@ -114,7 +116,7 @@ Con el objetivo de mantener la fuente de datos accesible desde la nube, decido <
 <strong><i>Se opta por generar un enlace público para lectores.</i></strong>  
 
 #### Enlace de fuente de datos.
-Prerrequisito: Instalar PyDrive desde administrador de paquetes Anaconda Navigator.
+📌 **Prerrequisito:** Instalar PyDrive desde administrador de paquetes Anaconda Navigator.
 
 <a href="https://drive.google.com/file/d/19tBaQ5YbntGYRS3v10yBhrIXQ_uq3Dtc/view?usp=drive_link" target="_blank" rel="noopener noreferrer">
 https://drive.google.com/file/d/19tBaQ5YbntGYRS3v10yBhrIXQ_uq3Dtc/view?usp=drive_link
@@ -125,9 +127,9 @@ https://drive.google.com/file/d/19tBaQ5YbntGYRS3v10yBhrIXQ_uq3Dtc/view?usp=drive
 [CONTINUE]
 
 #### 🔠 Paso 2: Análisis exploratorio de datos y primeras visualizaciones
-📌 **Prerrequisito**: Instalar el plugin `spyder-notebook` para ejecutar notebooks dentro de Spyder.  
+📌 **Prerrequisito:** Instalar el plugin `spyder-notebook` para ejecutar notebooks dentro de Spyder.  
 
-🔧 **Configuración inicial**: No se creó un proyecto. Solo se configuró la carpeta de trabajo en Spyder.  
+🔧 **Configuración inicial:** No se creó un proyecto. Solo se configuró la carpeta de trabajo en Spyder.  
 
 Usaré este notebook de referencia 💜 de **fabsta**  
 <a href="https://github.com/fabsta/interesting_notebooks/blob/master/data-sciencetutorial-for-beginners.ipynb" target="_blank" rel="noopener noreferrer">
@@ -135,26 +137,27 @@ https://github.com/fabsta/interesting_notebooks/blob/master/data-sciencetutorial
 </a>
 
 <p align="justify">
-Usando la siguiente sentencia, me di cuenta de que existe una variable que, a pesar de estar incompleta, se puede usar en análisis que admitan valores nulos.  
-<img alt="se ejecuta el método info() en la variable &#39;data&#39;." Src="docs\Captura%20de%20pantalla%202025-06-08%20170129.png" title="data.info()"/>
+Usando la siguiente sentencia, me di cuenta de que existe una variable que, a pesar de estar incompleta, se puede usar en análisis que admitan valores nulos.<br>
+<img alt="se ejecuta el método info() en la variable &#39;data&#39;." src="docs\Captura%20de%20pantalla%202025-06-08%20170129.png" title="data.info()"/>
 
 Pero vale la pena poner un letrero que lo explicite cada vez.
 Como por ejemplo cambiar el nombre de la variable de "ACTIVIDAD" a ACTIVIDAD_95.
->data.rename(columns={"ACTIVIDAD": "ACTIVIDAD_95"}, inplace=True)  # Ej: 95% completitud  
->print(data.columns)
 </p>
+
+>data.rename(columns={"ACTIVIDAD": "ACTIVIDAD_95"}, inplace=True)  # Ej: 95% completitud
+>print(data.columns)
 
 La columna `RANGO ETARIO` estaba configurada como índice. Se revirtió con:
 
 >data = data.reset_index()  
->print(data.[Index])
+>print(data.index)
 
 <p align="justify">
 La columna CUPO MÁXIMO tenía comas como separador de miles y estaba encerrada en comillas, por lo que se limpió y convirtió a entero:
 
-> data["CUPO MÁXIMO"] = (
->    data["CUPO MÁXIMO"]
->    .astype(str)
+> data_sorted["CUPO MÁXIMO"] = ( 
+> data_sorted["CUPO MÁXIMO"]
+>     .astype(str)
 >    .str.replace(r'[\,,\"]', '', regex=True)
 >    .astype("int64")
 >)
