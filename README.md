@@ -11,7 +11,7 @@ Este es un estudio de corte transversal que busca conocer los resultados luego d
 - Spyder  
   - spyder-notebook plugin
   - `PyDrive` Notebook
-  - EDA Pandas Notebook from [fabsta](https://github.com/fabsta)  
+  - EDA-Pandas-ML Notebook by [fabsta](https://github.com/fabsta)  
     - Comparar eficiencia con `GlueViz`
 - Mermaid Chart
 - Power BI Desktop
