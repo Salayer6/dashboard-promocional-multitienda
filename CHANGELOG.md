@@ -124,8 +124,9 @@ https://drive.google.com/file/d/19tBaQ5YbntGYRS3v10yBhrIXQ_uq3Dtc/view?usp=drive
 [CONTINUE]
 
 #### 🔠 Paso 2: Análisis exploratorio de datos y primeras visualizaciones
-Prerrequisito: Instalar Plugin para ejecución de Python Notebooks `spyder-notebook`.  
-En Spyder no se me hace necesario el uso de un proyecto, por lo que solamente configuraré la carpeta de trabajo.  
+📌 **Prerrequisito**: Instalar el plugin `spyder-notebook` para ejecutar notebooks dentro de Spyder.  
+
+🔧 **Configuración inicial**: No se creó un proyecto. Solo se configuró la carpeta de trabajo en Spyder.  
 
 Usaré este notebook de referencia.  
 <a href="https://github.com/Salayer6/dashboard-promocional-multitienda/blob/main/notebooks/Pandas%20EDA%20Notebook.ipynb" target="_blank" rel="noopener noreferrer">
@@ -133,27 +134,22 @@ CAMBIAR https://github.com/Salayer6/dashboard-promocional-multitienda/blob/main/
 </a>
 <p align="justify">
 
-Usando la siguiente sentencia, me di cuenta de que existe una variable que, a pesar de estar incompleta, se puede usar en análsis que admitan valores nulos.  
+Usando la siguiente sentencia, me di cuenta de que existe una variable que, a pesar de estar incompleta, se puede usar en análisis que admitan valores nulos.  
 <img alt="se ejecuta el método info() en la variable &#39;data&#39;." Src="docs\Captura%20de%20pantalla%202025-06-08%20170129.png" title="data.info()"/>
 
 Pero vale la pena poner un letrero que lo explicite cada vez.
 Como por ejemplo cambiar el nombre de la variable de "ACTIVIDAD" a ACTIVIDAD_95.
 >data.rename(columns={"ACTIVIDAD": "ACTIVIDAD_95"}, inplace=True)  # Ej: 95% completitud  
 >print(data.columns)
-
-Se detecta que la columna "RANGO ETARIO" se usa como índice. Se procede a eliminar esta configuración.
 </p>
+
+La columna `RANGO ETARIO` estaba configurada como índice. Se revirtió con:
 
 >data = data.reset_index()  
 >print(data.[Index])
 
-
-
 <p align="justify">
-Se detecta que la columna "CUPO MÁXIMO" contiene comillas como si fuese un <i>string</i> y además contiene comas como separador de miles.<br>
-Se procede a corregir con la siguiente sentencia:<br>
-Para la columna 'CUPO MÁXIMO' de la variable 'data': Reemplazar <i>comillas</i> y <i>comas</i> con <i>nada</i>, luego convertir el valor a tipo 'Numérico entero'.
-</p>
+La columna CUPO MÁXIMO tenía comas como separador de miles y estaba encerrada en comillas, por lo que se limpió y convirtió a entero:
 
 > data["CUPO MÁXIMO"] = (
 >    data["CUPO MÁXIMO"]
@@ -162,15 +158,75 @@ Para la columna 'CUPO MÁXIMO' de la variable 'data': Reemplazar <i>comillas</i>
 >    .astype("int64")
 >)
 
+🔍 Revisión de tipos de datos
+> print(data_sorted[[  
+>    "VECES QUE COMPRA EN PROMEDIO AL AÑO", 
+>    "CANTIDAD HISTORICA DE ATRASOS EN PAGOS",  
+>    "PORCENTAJE DE USO DEL CUPO"  
+>]].dtypes)
 
+🧼 Revisión de caracteres ocultos
+> for col in data_sorted.columns:  
+>    print(repr(col))
 
+🔗 Matriz de correlación
+> f, ax = plt.subplots(figsize=(18, 18))  
+> sns.heatmap(data_sorted.corr(), annot=True, linewidths=.5, fmt='.1f', ax=ax)  
+> plt.show()
 
+📈 Visualizaciones Exploratorias
+> data_sorted['AÑO_STR'] = data_sorted['AÑO APERTURA TARJETA'].astype(str)  
+> data_sorted.plot(  
+>    x="AÑO_STR", y="CUPO MÁXIMO", kind='line',  
+>     color='g', label='CUPO MÁXIMO',  
+>     linewidth=1, alpha=0.5, grid=True, linestyle=':'  
+>)  
+> plt.title('Cupo según año de apertura de la tarjeta')  
+> plt.xlabel('AÑO APERTURA TARJETA')  
+> plt.ylabel('CUPO MÁXIMO')  
+> plt.legend(loc='upper center')  
+> plt.show()  
 
+🧠 Nota: Es importante ordenar los datos por tiempo para evitar gráficos desordenados.  
+#### Scatter Plot: Atrasos vs. Frecuencia de Compra
+> data_sorted.plot(  
+>     kind='scatter',  
+>     x='VECES QUE COMPRA EN PROMEDIO AL AÑO',  
+>    y='CANTIDAD HISTORICA DE ATRASOS EN PAGOS',  
+>     alpha=0.5,  
+>     color='red'  
+> )  
+> plt.xlabel('Recurrencia de compra')  
+> plt.ylabel('Historial de atrasos')  
+> plt.title('Relación entre compras y atrasos')  
+> plt.show()  
 
+#### Histograma: Unidades Compradas (Producto A vs Producto B)  
+> plt.figure(figsize=(12, 8))  
+> data_sorted["UNIDADES COMPRADAS DEL PRODUCTO A"].plot(  
+>     kind='hist', bins=50, alpha=0.5, color='blue', label='Producto A'  
+> )  
+> data_sorted["UNIDADES COMPRADAS DEL PRODUCTO B"].plot(  
+>     kind='hist', bins=50, alpha=0.5, color='green', label='Producto B'  
+> )  
+> plt.title('Comparación de Unidades Compradas')  
+> plt.xlabel('Unidades')  
+> plt.ylabel('Frecuencia')  
+> plt.legend()  
+> plt.grid(True)  
+> plt.show()  
 
+### 📌 Conclusión del Paso
+Se realizó una limpieza básica de columnas con formato incorrecto.
 
-#### 📂 Bonus: Comparar con GlueViz.
-Hice, en 2 minutos, hice mucho más de lo que logré hice haciendo el EDA Inicial con una instancia de iPython. Incluye funciones de segmentación de datos y plantillas.  
+Se identificaron correlaciones significativas que pueden guiar el modelado posterior.
+
+Las visualizaciones iniciales ayudan a entender patrones de comportamiento en los clientes.
+</p>
+
+#### 📂 Bonus: Comparar eficiencia con GlueViz.
+Hice, en 2 minutos, mucho más de lo que logré en comparación cuando hice el EDA Inicial con una instancia de iPython.  
+La herramienta incluye plantillas y funciones de segmentación de datos.  
 Desarrollar expertise en esta herramienta entregará mucho rendimiento.
 ¿Se podrá hacer configuración total de las variables en uso?
 De serlo, sería la mejor forma para realizar EDA inicial.
@@ -179,5 +235,5 @@ De serlo, sería la mejor forma para realizar EDA inicial.
 
 [CONTINUE]
 
-
+---
 ### 📂 Paso 3: 
