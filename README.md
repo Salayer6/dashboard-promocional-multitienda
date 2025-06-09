@@ -11,7 +11,7 @@ Este es un estudio de corte transversal que busca conocer los resultados luego d
 - Spyder  
   - spyder-notebook plugin
   - `PyDrive` Notebook
-  - EDA-Pandas-ML Notebook by [fabsta](https://github.com/fabsta)  
+  - EDA-Pandas-ML Notebook by <a href="https://github.com/fabsta">[fabsta]</a>
     - Comparar eficiencia con `GlueViz`
 - Mermaid Chart
 - Power BI Desktop
@@ -36,7 +36,9 @@ Este es un estudio de corte transversal que busca conocer los resultados luego d
 >                             `v0.9`: Confección de objetos visuales.  
 >                             `v1.0`: Dashboard publicado.  
 
-El detalle de los cambios se puede ver en [CHANGELOG.md](https://github.com/Salayer6/dashboard-promocional-multitienda/blob/main/CHANGELOG.md:target="_blank")
+El detalle de los cambios se puede ver en  
+<a href="https://github.com/Salayer6/dashboard-promocional-multitienda/blob/main/CHANGELOG.md">
+https://github.com/Salayer6/dashboard-promocional-multitienda/blob/main/CHANGELOG.md</a>
 
 ## 📜 Licencia
 <p align="justify">
