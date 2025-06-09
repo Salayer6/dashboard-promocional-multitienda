@@ -144,7 +144,7 @@ Pero vale la pena poner un letrero que lo explicite cada vez.
 Como por ejemplo cambiar el nombre de la variable de "ACTIVIDAD" a ACTIVIDAD_95.
 </p>
 
->data.rename(columns={"ACTIVIDAD": "ACTIVIDAD_95"}, inplace=True)  # Ej: 95% completitud
+>data.rename(columns={"ACTIVIDAD": "ACTIVIDAD_95"}, inplace=True)  # Ej: 95% completitud  
 >print(data.columns)
 
 La columna `RANGO ETARIO` estaba configurada como índice. Se revirtió con:
@@ -156,16 +156,16 @@ La columna `RANGO ETARIO` estaba configurada como índice. Se revirtió con:
 La columna CUPO MÁXIMO tenía comas como separador de miles y estaba encerrada en comillas, por lo que se limpió y convirtió a entero:
 
 > data_sorted["CUPO MÁXIMO"] = ( 
-> data_sorted["CUPO MÁXIMO"]
->     .astype(str)
->    .str.replace(r'[\,,\"]', '', regex=True)
->    .astype("int64")
+> data_sorted["CUPO MÁXIMO"]  
+>     .astype(str)  
+>    .str.replace(r'[\,,\"]', '', regex=True)  
+>    .astype("int64")  
 >)
 
 🔍 Revisión de tipos de datos
 > print(data_sorted[[  
->    "VECES QUE COMPRA EN PROMEDIO AL AÑO", 
->    "CANTIDAD HISTORICA DE ATRASOS EN PAGOS",  
+>    "VECES QUE COMPRA EN PROMEDIO AL AÑO",   
+>    "CANTIDAD HISTORICA DE ATRASOS EN PAGOS",   
 >    "PORCENTAJE DE USO DEL CUPO"  
 >]].dtypes)
 
