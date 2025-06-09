@@ -5,8 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c852d502-bcae-4332-8e4c-1be76fd4e154" name="Changes" comment="UPDATE CHANGELOG.md &amp; README.md links in html">
+      <change afterPath="$PROJECT_DIR$/outputs/EDA Visualizations/Captura de pantalla 2025-06-08 170129.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/CHANGELOG.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/outputs/EDA Visualizations/Figure 2025-06-08 122232.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/outputs/EDA Visualizations/Figure 2025-06-08 142231.png" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,13 +66,14 @@
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "D:/Caso Multitienda/caso-multitienda-repository/docs/Captura de pantalla 2025-06-08 170129.png",
+    "last_opened_file_path": "D:/Caso Multitienda/caso-multitienda-repository/outputs/EDA Visualizations",
     "run.code.analysis.last.selected.profile": "pProject Default",
     "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Caso Multitienda\caso-multitienda-repository\outputs\EDA Visualizations" />
       <recent name="D:\Caso Multitienda\caso-multitienda-repository\docs" />
       <recent name="D:\Caso Multitienda\caso-multitienda-repository\data" />
     </key>
@@ -414,7 +418,23 @@
       <option name="project" value="LOCAL" />
       <updated>1749431965273</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="UPDATE CHANGELOG.md &amp; README.md links in html">
+      <option name="closed" value="true" />
+      <created>1749433173615</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1749433173615</updated>
+    </task>
+    <task id="LOCAL-00041" summary="UPDATE CHANGELOG.md &amp; README.md links in html">
+      <option name="closed" value="true" />
+      <created>1749433323871</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1749433323871</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

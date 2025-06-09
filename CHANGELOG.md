@@ -138,7 +138,7 @@ https://github.com/fabsta/interesting_notebooks/blob/master/data-sciencetutorial
 
 <p align="justify">
 Usando la siguiente sentencia, me di cuenta de que existe una variable que, a pesar de estar incompleta, se puede usar en análisis que admitan valores nulos.<br>
-<img alt="se ejecuta el método info() en la variable &#39;data&#39;." src="docs\Captura%20de%20pantalla%202025-06-08%20170129.png" title="data.info()"/>
+<img alt="Se ejecuta el método .info() en la variable &#39;data&#39;." src="outputs%2FEDA%20Visualizations%2FCaptura%20de%20pantalla%202025-06-08%20170129.png" title="data.info()"/>
 
 Pero vale la pena poner un letrero que lo explicite cada vez.
 Como por ejemplo cambiar el nombre de la variable de "ACTIVIDAD" a ACTIVIDAD_95.
@@ -152,8 +152,15 @@ La columna `RANGO ETARIO` estaba configurada como índice. Se revirtió con:
 >data = data.reset_index()  
 >print(data.index)
 
+Se generó un DataFrame, ordenado cronológicamente, con la clave primaria 'AÑO APERTURA TARJETA'
+> data_sorted = data.sort_values(by='AÑO APERTURA TARJETA')  
+> print("DataFrame ordenado por 'AÑO APERTURA TARJETA'. Puedes borrar 'data'.")
+
+`data_sorted` será nuestro `DataFrame` de uso.
+
 <p align="justify">
 La columna CUPO MÁXIMO tenía comas como separador de miles y estaba encerrada en comillas, por lo que se limpió y convirtió a entero:
+</p>
 
 > data_sorted["CUPO MÁXIMO"] = ( 
 > data_sorted["CUPO MÁXIMO"]  
@@ -162,23 +169,26 @@ La columna CUPO MÁXIMO tenía comas como separador de miles y estaba encerrada 
 >    .astype("int64")  
 >)
 
-🔍 Revisión de tipos de datos
+#### 🔍 Revisión de tipos de datos
 > print(data_sorted[[  
 >    "VECES QUE COMPRA EN PROMEDIO AL AÑO",   
 >    "CANTIDAD HISTORICA DE ATRASOS EN PAGOS",   
 >    "PORCENTAJE DE USO DEL CUPO"  
 >]].dtypes)
 
-🧼 Revisión de caracteres ocultos
+#### 🧼 Revisión de caracteres ocultos
+Con este código se mostrarán caracteres invisibles regularmente.
 > for col in data_sorted.columns:  
 >    print(repr(col))
 
-🔗 Matriz de correlación
+#### 🔗 Matriz de correlación
 > f, ax = plt.subplots(figsize=(18, 18))  
 > sns.heatmap(data_sorted.corr(), annot=True, linewidths=.5, fmt='.1f', ax=ax)  
 > plt.show()
 
-📈 Visualizaciones Exploratorias
+<img alt="Muestra una grilla con los valores de correlación que tienen todos los cruces posibles de las variables.<br> Para esta etapa es requisito que todas las variables estén correctamente formateadas." src="outputs\EDA%20Visualizations\Figure%202025-06-08%20220804.png" title="Matriz de correlación"/>
+
+#### 📈 Visualizaciones Exploratorias
 > data_sorted['AÑO_STR'] = data_sorted['AÑO APERTURA TARJETA'].astype(str)  
 > data_sorted.plot(  
 >    x="AÑO_STR", y="CUPO MÁXIMO", kind='line',  
@@ -191,7 +201,11 @@ La columna CUPO MÁXIMO tenía comas como separador de miles y estaba encerrada 
 > plt.legend(loc='upper center')  
 > plt.show()  
 
-🧠 Nota: Es importante ordenar los datos por tiempo para evitar gráficos desordenados.  
+<img alt="Matrix de correlación, para saber rápidamente si es que hay correlación en alguna de las variables." src="outputs\EDA%20Visualizations\Figure 2025-06-08 222447.png" title="Gráfico de líneas de Cupo máximo según año de apertura"/>
+
+🧠 Nota: Es importante ordenar previamente los datos por alguna dimensión de tiempo para evitar gráficos desordenados. Por ejemplo:
+<img alt="Muestra un gráfico que genera líneas sin sentido porque se plotean en el orden del índice, que es pseudo-aleatorio" src="outputs\EDA%20Visualizations\Figure 2025-06-08 190722.png" title="Gráfico desordenado"/>
+
 #### Scatter Plot: Atrasos vs. Frecuencia de Compra
 > data_sorted.plot(  
 >     kind='scatter',  
@@ -204,6 +218,8 @@ La columna CUPO MÁXIMO tenía comas como separador de miles y estaba encerrada 
 > plt.ylabel('Historial de atrasos')  
 > plt.title('Relación entre compras y atrasos')  
 > plt.show()  
+
+<img alt="Representa como se comportan dos variables numéricas para un mismo individuo" src="outputs\EDA%20Visualizations\Figure 2025-06-08 222938.png" title="Diagrama de dispersión"/>
 
 #### Histograma: Unidades Compradas (Producto A vs Producto B)  
 > plt.figure(figsize=(12, 8))  
@@ -221,6 +237,8 @@ La columna CUPO MÁXIMO tenía comas como separador de miles y estaba encerrada 
 > plt.show()  
 
 ### 📌 Conclusión del Paso
+
+<p>
 Se realizó una limpieza básica de columnas con formato incorrecto.
 
 Se identificaron correlaciones significativas que pueden guiar el modelado posterior.
@@ -229,15 +247,15 @@ Las visualizaciones iniciales ayudan a entender patrones de comportamiento en lo
 </p>
 
 #### 📂 Bonus: Comparar eficiencia con GlueViz.
+<p>
 Hice, en 2 minutos, mucho más de lo que logré en comparación cuando hice el EDA Inicial con una instancia de iPython.  
 La herramienta incluye plantillas y funciones de segmentación de datos.  
 Desarrollar expertise en esta herramienta entregará mucho rendimiento.
 ¿Se podrá hacer configuración total de las variables en uso?
 De serlo, sería la mejor forma para realizar EDA inicial.
-
+</p>
 <img alt="Segmentaciones destacadas con rojo, plantillas de gráficos." height="576" src="docs\Captura%20de%20pantalla%202025-06-08%20155405.png" title="GlueViz - Visualizaciones rápidas" width="1024"/>
 
-[CONTINUE]
-
 ---
-### 📂 Paso 3: 
+### 📂 Paso 3: Realizar conexión con documento histórico consolidado y subir nuevos registros procesados.
+
