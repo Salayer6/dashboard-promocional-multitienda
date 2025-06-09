@@ -9,15 +9,16 @@ Este es un estudio de corte transversal que busca conocer los resultados luego d
 - Git y GitHub  
 - PyCharm Community Edition  
 - Spyder  
-  - Notebook plugin
-  - Pandas EDA Notebook  
-    - Comparar eficiencia con GlueViz  
-- Power BI Desktop  
-- Mermaid Chart  
-- `PyDrive` Notebook
-  - Google Spreadsheets ➡️ (Nuevas Fuentes de datos.csv) ➡️ ETL
-    - Power Query  
-- Python ML Notebook
+  - spyder-notebook plugin
+  - `PyDrive` Notebook
+  - EDA Pandas Notebook from [fabsta](https://github.com/fabsta)  
+    - Comparar eficiencia con `GlueViz`
+- Mermaid Chart
+- Power BI Desktop
+  - Background design in Figma  
+  - Python ML Notebook  
+- Power Automate: AUTO-ETL
+  - Google Spreadsheets ➡️ (nuevos datos.csv) ➡️  Power Query
 - Power BI Service
 
 ## 🔄 CHANGELOG

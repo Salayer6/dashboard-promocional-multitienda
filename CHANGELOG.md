@@ -128,12 +128,12 @@ https://drive.google.com/file/d/19tBaQ5YbntGYRS3v10yBhrIXQ_uq3Dtc/view?usp=drive
 
 🔧 **Configuración inicial**: No se creó un proyecto. Solo se configuró la carpeta de trabajo en Spyder.  
 
-Usaré este notebook de referencia.  
-<a href="https://github.com/Salayer6/dashboard-promocional-multitienda/blob/main/notebooks/Pandas%20EDA%20Notebook.ipynb" target="_blank" rel="noopener noreferrer">
-CAMBIAR https://github.com/Salayer6/dashboard-promocional-multitienda/blob/main/notebooks/Pandas%20EDA%20Notebook.ipynb
+Usaré este notebook de referencia 💜 de **fabsta**  
+<a href="https://github.com/fabsta/interesting_notebooks/blob/master/data-sciencetutorial-for-beginners.ipynb" target="_blank" rel="noopener noreferrer">
+https://github.com/fabsta/interesting_notebooks/blob/master/data-sciencetutorial-for-beginners.ipynb
 </a>
-<p align="justify">
 
+<p align="justify">
 Usando la siguiente sentencia, me di cuenta de que existe una variable que, a pesar de estar incompleta, se puede usar en análisis que admitan valores nulos.  
 <img alt="se ejecuta el método info() en la variable &#39;data&#39;." Src="docs\Captura%20de%20pantalla%202025-06-08%20170129.png" title="data.info()"/>
 
