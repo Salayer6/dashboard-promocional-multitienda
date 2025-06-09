@@ -201,7 +201,7 @@ Con este código se mostrarán caracteres invisibles regularmente.
 > plt.legend(loc='upper center')  
 > plt.show()  
 
-<img alt="Matrix de correlación, para saber rápidamente si es que hay correlación en alguna de las variables." src="outputs\EDA%20Visualizations\Figure 2025-06-08 222447.png" title="Gráfico de líneas de Cupo máximo según año de apertura"/>
+<img alt="Matrix de correlación, para saber rápidamente si es que hay correlación en alguna de las variables." src="outputs\EDA%20Visualizations\Figure%202025-06-08 220804.png" title="Gráfico de líneas de Cupo máximo según año de apertura"/>
 
 🧠 Nota: Es importante ordenar previamente los datos por alguna dimensión de tiempo para evitar gráficos desordenados. Por ejemplo:
 <img alt="Muestra un gráfico que genera líneas sin sentido porque se plotean en el orden del índice, que es pseudo-aleatorio" src="outputs\EDA%20Visualizations\Figure 2025-06-08 190722.png" title="Gráfico desordenado"/>
