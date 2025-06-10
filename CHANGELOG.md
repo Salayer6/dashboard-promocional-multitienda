@@ -256,13 +256,13 @@ Con este código se mostrarán caracteres invisibles regularmente.
 <img alt="Histograma que muestra qué tanto los clientes vuelven a comprar en el año y, con las barras, muestran la frecuencia de esa cantidad." src="outputs%2FEDA%20Visualizations%2FFigure%202025-06-09%20213753.png" title="# Histograma 3: 1 Dimensión y su frecuencia"/>
 
 ### Generar visualizaciones filtradas
-#### Mostrar aquellos que compren más de 20 veces promedio al año. Solamente hubieron cuatro clientes.
+#### Mostrar aquellos que compren más de 20 veces promedio al año. Solamente hubo cuatro clientes.
 > x = data_sorted["VECES QUE COMPRA EN PROMEDIO AL AÑO"]>29  
 > data[x]  
 
 <img alt="Tabla filtrada que genera ranking de clientes que compran más de 29 veces promedio al año" src="outputs%2FEDA%20Visualizations%2FCaptura%20de%20pantalla%202025-06-09%20215556.png" title="Ranking de compradores que compraron más de 29 veces promedio"/>  
 
-#### Mostrar aquellos que compren más de veinte veces promedio al año, y que también tenga un historial de atrasos de pagos menor a diez veces. Solamente hubieron dos clientes.
+#### Mostrar aquellos que compren más de veinte veces promedio al año, y que también tenga un historial de atrasos de pagos menor a diez veces. Solamente hubo dos clientes.
 > data_sorted[np.logical_and(data_sorted['VECES QUE COMPRA EN PROMEDIO AL AÑO']>29,  
 > data_sorted['CANTIDAD HISTORICA DE ATRASOS EN PAGOS'  
 > ]<10  
