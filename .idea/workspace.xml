@@ -4,12 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c852d502-bcae-4332-8e4c-1be76fd4e154" name="Changes" comment="UPDATE CHANGELOG.md &amp; README.md links in html">
-      <change afterPath="$PROJECT_DIR$/outputs/EDA Visualizations/Captura de pantalla 2025-06-08 170129.png" afterDir="false" />
+    <list default="true" id="c852d502-bcae-4332-8e4c-1be76fd4e154" name="Changes" comment="UPDATE CHANGELOG.md &amp; ADD Visualizations">
+      <change afterPath="$PROJECT_DIR$/outputs/EDA Visualizations/Figure 2025-06-09 212444.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/CHANGELOG.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/outputs/EDA Visualizations/Figure 2025-06-08 122232.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/outputs/EDA Visualizations/Figure 2025-06-08 142231.png" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,15 +60,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "D:/Caso Multitienda/caso-multitienda-repository/outputs/EDA Visualizations",
-    "run.code.analysis.last.selected.profile": "pProject Default",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Caso Multitienda/caso-multitienda-repository/outputs/EDA Visualizations&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Caso Multitienda\caso-multitienda-repository\outputs\EDA Visualizations" />
@@ -434,7 +432,23 @@
       <option name="project" value="LOCAL" />
       <updated>1749433323871</updated>
     </task>
-    <option name="localTasksCounter" value="42" />
+    <task id="LOCAL-00042" summary="UPDATE CHANGELOG.md &amp; README.md links in html">
+      <option name="closed" value="true" />
+      <created>1749437695899</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1749437695899</updated>
+    </task>
+    <task id="LOCAL-00043" summary="UPDATE CHANGELOG.md &amp; ADD Visualizations">
+      <option name="closed" value="true" />
+      <created>1749438025616</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1749438025616</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -519,6 +533,7 @@
     <MESSAGE value="UPDATE README.md" />
     <MESSAGE value="UPDATE CHANGELOG.md &amp; README.md" />
     <MESSAGE value="UPDATE CHANGELOG.md &amp; README.md links in html" />
-    <option name="LAST_COMMIT_MESSAGE" value="UPDATE CHANGELOG.md &amp; README.md links in html" />
+    <MESSAGE value="UPDATE CHANGELOG.md &amp; ADD Visualizations" />
+    <option name="LAST_COMMIT_MESSAGE" value="UPDATE CHANGELOG.md &amp; ADD Visualizations" />
   </component>
 </project>

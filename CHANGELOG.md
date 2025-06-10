@@ -236,6 +236,10 @@ Con este código se mostrarán caracteres invisibles regularmente.
 > plt.grid(True)  
 > plt.show()  
 
+<img alt="Histograma de comparación entre Producto A y Producto B.Las barras están definidas según la cantidad de productos en oferta llevados y las barras contean la frecuencia de esa cantidad." src="outputs%2FEDA%20Visualizations%2FFigure%202025-06-09%20212444.png" title="# Histograma: 1 Dimensión y su frecuencia"/>
+
+
+
 ### 📌 Conclusión del Paso
 
 <p>
