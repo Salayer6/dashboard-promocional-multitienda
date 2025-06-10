@@ -283,7 +283,7 @@ Con este código se mostrarán caracteres invisibles regularmente.
 <p>
 Se realizó una limpieza básica de columnas con formato incorrecto.
 
-Se identificaron correlaciones significativas que pueden guiar el modelado posterior.
+Se identificaron tendencias significativas que pueden guiar el modelado posterior.
 
 Las visualizaciones iniciales ayudan a entender patrones de comportamiento en los clientes.
 </p>
