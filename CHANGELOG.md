@@ -238,7 +238,45 @@ Con este código se mostrarán caracteres invisibles regularmente.
 
 <img alt="Histograma de comparación entre Producto A y Producto B.Las barras están definidas según la cantidad de productos en oferta llevados y las barras contean la frecuencia de esa cantidad." src="outputs%2FEDA%20Visualizations%2FFigure%202025-06-09%20212444.png" title="# Histograma: 1 Dimensión y su frecuencia"/>
 
+> data_sorted["PORCENTAJE DE USO DEL CUPO"].plot(kind='hist', bins=50, color='blue', alpha=0.7)  
+> plt.title('Tipos de deudores')  
+> plt.xlabel('Uso del cupo')  
+> plt.ylabel('Frecuencia')  
+> plt.tight_layout()  # Evita superposición de elementos  
+> plt.show()  
 
+<img alt="Histograma que muestra los niveles de uso de cupo y, con las barras, muestran la frecuencia de esa cantidad." src="outputs%2FEDA%20Visualizations%2FFigure 2025-06-09 213655.png" title="# Histograma 2: 1 Dimensión y su frecuencia"/>
+
+> data_sorted["VECES QUE COMPRA EN PROMEDIO AL AÑO"].plot(kind='hist', bins=50, color='green', alpha=0.7)  
+> plt.title('Recurrencia de compra')  
+> plt.xlabel('Veces promedio que compra al año')  
+> plt.tight_layout()  # Evita superposición de elementos  
+> plt.show()  
+
+<img alt="Histograma que muestra qué tanto los clientes vuelven a comprar en el año y, con las barras, muestran la frecuencia de esa cantidad." src="outputs%2FEDA%20Visualizations%2FFigure%202025-06-09%20213753.png" title="# Histograma 3: 1 Dimensión y su frecuencia"/>
+
+### Generar visualizaciones filtradas
+#### Mostrar aquellos que compren más de 20 veces promedio al año. Solamente hubieron cuatro clientes.
+> x = data_sorted["VECES QUE COMPRA EN PROMEDIO AL AÑO"]>29  
+> data[x]  
+
+<img alt="Tabla filtrada que genera ranking de clientes que compran más de 29 veces promedio al año" src="outputs%2FEDA%20Visualizations%2FCaptura%20de%20pantalla%202025-06-09%20215556.png" title="Ranking de compradores que compraron más de 29 veces promedio"/>  
+
+#### Mostrar aquellos que compren más de veinte veces promedio al año, y que también tenga un historial de atrasos de pagos menor a diez veces. Solamente hubieron dos clientes.
+> data_sorted[np.logical_and(data_sorted['VECES QUE COMPRA EN PROMEDIO AL AÑO']>29,  
+> data_sorted['CANTIDAD HISTORICA DE ATRASOS EN PAGOS'  
+> ]<10  
+> )  
+> ]  
+
+<img alt="Tabla filtrada que genera ranking de clientes que compran más de 29 veces promedio al año" src="outputs%2FEDA%20Visualizations%2FCaptura%20de%20pantalla%202025-06-09%20220201.png" title="Ranking de compradores que compraron más de 29 veces promedio, y que también tenga un historial de atrasos de pagos menor a diez veces"/>
+
+#### Mostrar aquellos que compren más de veinte veces promedio al año, que tenga un historial de atrasos de pagos menor a diez veces, y que también tenga un estado de deuda pagado, o "sin deuda". Se podría decir que es el mejor cliente de la tienda.
+> data[(data_sorted['VECES QUE COMPRA EN PROMEDIO AL AÑO']>29) &  
+>      (data_sorted['CANTIDAD HISTORICA DE ATRASOS EN PAGOS']<10) &  
+>      (data_sorted['ESTADO ACTUAL']=="SIN DEUDA")]  
+
+<img alt="Tabla filtrada que genera ranking de clientes que compran más de 29 veces promedio al año, que tenga un historial de atrasos de pagos menor a diez veces, y que también tenga un estado de deuda pagado, o 'sin deuda'" src="outputs%2FEDA%20Visualizations%2FCaptura%20de%20pantalla%202025-06-09%20221345.png" title="Ranking de compradores que compraron más de 29 veces promedio, que tenga un historial de atrasos de pagos menor a diez veces, y que también tenga un estado de deuda pagado, o 'sin deuda'"/>
 
 ### 📌 Conclusión del Paso
 

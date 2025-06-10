@@ -4,10 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c852d502-bcae-4332-8e4c-1be76fd4e154" name="Changes" comment="UPDATE CHANGELOG.md &amp; ADD Visualizations">
-      <change afterPath="$PROJECT_DIR$/outputs/EDA Visualizations/Figure 2025-06-09 212444.png" afterDir="false" />
+    <list default="true" id="c852d502-bcae-4332-8e4c-1be76fd4e154" name="Changes" comment="ADD histogram image">
+      <change afterPath="$PROJECT_DIR$/outputs/EDA Visualizations/Figure 2025-06-09 213655.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputs/EDA Visualizations/Figure 2025-06-09 213753.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/CHANGELOG.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebooks/.ipynb_checkpoints/Project EDA Pandas Notebook-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/.ipynb_checkpoints/Project EDA Pandas Notebook-checkpoint.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebooks/Project EDA Pandas Notebook.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/Project EDA Pandas Notebook.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -448,7 +451,15 @@
       <option name="project" value="LOCAL" />
       <updated>1749438025616</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary="ADD histogram image">
+      <option name="closed" value="true" />
+      <created>1749518978359</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1749518978359</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -534,6 +545,7 @@
     <MESSAGE value="UPDATE CHANGELOG.md &amp; README.md" />
     <MESSAGE value="UPDATE CHANGELOG.md &amp; README.md links in html" />
     <MESSAGE value="UPDATE CHANGELOG.md &amp; ADD Visualizations" />
-    <option name="LAST_COMMIT_MESSAGE" value="UPDATE CHANGELOG.md &amp; ADD Visualizations" />
+    <MESSAGE value="ADD histogram image" />
+    <option name="LAST_COMMIT_MESSAGE" value="ADD histogram image" />
   </component>
 </project>
