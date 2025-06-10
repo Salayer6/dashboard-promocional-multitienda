@@ -159,7 +159,7 @@ Se generó un DataFrame, ordenado cronológicamente, con la clave primaria 'AÑO
 `data_sorted` será nuestro `DataFrame` de uso.
 
 <p align="justify">
-La columna CUPO MÁXIMO tenía comas como separador de miles y estaba encerrada en comillas, por lo que se limpió y convirtió a entero:
+La columna CUPO MÁXIMO tenía comas como separador de miles y estaba encerrada en comillas, por lo que se limpió y convirtió a numérico entero:
 </p>
 
 > data_sorted["CUPO MÁXIMO"] = ( 
