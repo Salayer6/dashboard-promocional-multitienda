@@ -107,7 +107,7 @@ Se deja configurado el proyecto con Update Method = Rebase
 
 ## `v0.3`: EDA inicial, primeras visualizaciones, proyecto en blanco iniciado, conexión de datos - 2025-06-08  
 ### Paso 0: Instalar librerías necesarias.  
-Paquetes necesarios: numpy, pandas, matplotlib.pyplot, seaborn, pydrive.
+Paquetes necesarios: numpy, pandas, matplotlib.pyplot, seaborn, gspread y google-auth.
 En este caso serán instalados desde el instalador de paquetes de Anaconda Navigator.
 
 ### 📂 Paso 1: Publicación de la fuente de datos en Google Drive
