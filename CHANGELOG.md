@@ -125,19 +125,19 @@ https://drive.google.com/file/d/19tBaQ5YbntGYRS3v10yBhrIXQ_uq3Dtc/view?usp=drive
 #### Inicialización y conexión
 
 📌 **Prerrequisitos:**  
-I. Instalar los paquetes requeridos:
-> import pandas as pd # data processing, CSV file I/O (e.g. pd.read_csv)
-> import matplotlib.pyplot as plt
-> import seaborn as sns  # visualization tool
-> import os
-> import gspread
-> from google.oauth2.service_account import Credentials
+I. Instalar los paquetes requeridos:  
+> import pandas as pd # data processing, CSV file I/O (e.g. pd.read_csv)  
+> import matplotlib.pyplot as plt  
+> import seaborn as sns  # visualization tool  
+> import os  
+> import gspread  
+> from google.oauth2.service_account import Credentials  
 
-II. Contar con una cuenta de Google Cloud Platform.
+II. Contar con una cuenta de Google Cloud Platform.  
 - Paso 1: Crear un proyecto para el caso o utilizar uno de prácticas (como en mi caso).  
 - Paso 2: Habilitar las API de Google Drive y de Hoja de Cálculos. (Menú lateral izquierdo > APIs y servicios > Biblioteca)  
 - Paso 3: Crear una cuenta de servicio, con su respectivo correo, con privilegios de editor. (Menú lateral izquierdo > APIs y servicios > Credenciales > Crear credenciales > Cuenta de servicio)  
-    - Copiar dirección de correo de la cuenta de servicio.
+    - Copiar dirección de correo de la cuenta de servicio.  
     - Crear par de claves para autenticar de forma remota desde el IDE. (En la página de detalles del servicio creado > Pestaña 'Claves' > Agregar clave > Crear clave nueva)  
     - Descargar en formato JSON, copiar a la carpeta del proyecto y renombrar a 'client_secrets.json' y pegar el correo copiado como valor del campo 'client_email'. Este es un archivo sensible, con contenido de tipo <i>diccionario</i>. Se debe tratar como una contraseña.  También, añadí dicho archivo a '.gitignore' a nivel general.  
         - Subí un archivo de muestra, con la clave censurada, para ejemplificar el contenido (Llamado 'clients_secrets.json.sample' ubicado en ../docs/).  
