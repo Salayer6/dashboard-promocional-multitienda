@@ -116,7 +116,6 @@ Con el objetivo de mantener la fuente de datos accesible desde la nube, decido <
 <strong><i>Se opta por generar un enlace público para lectores.</i></strong>  
 
 #### Enlace de fuente de datos.
-📌 **Prerrequisito:** Instalar gspread desde administrador de paquetes Anaconda Navigator.
 
 <a href="https://drive.google.com/file/d/19tBaQ5YbntGYRS3v10yBhrIXQ_uq3Dtc/view?usp=drive_link" target="_blank" rel="noopener noreferrer">
 https://drive.google.com/file/d/19tBaQ5YbntGYRS3v10yBhrIXQ_uq3Dtc/view?usp=drive_link
