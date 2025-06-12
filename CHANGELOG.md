@@ -116,7 +116,7 @@ Con el objetivo de mantener la fuente de datos accesible desde la nube, decido <
 <strong><i>Se opta por generar un enlace público para lectores.</i></strong>  
 
 #### Enlace de fuente de datos.
-📌 **Prerrequisito:** Instalar PyDrive desde administrador de paquetes Anaconda Navigator.
+📌 **Prerrequisito:** Instalar gspread desde administrador de paquetes Anaconda Navigator.
 
 <a href="https://drive.google.com/file/d/19tBaQ5YbntGYRS3v10yBhrIXQ_uq3Dtc/view?usp=drive_link" target="_blank" rel="noopener noreferrer">
 https://drive.google.com/file/d/19tBaQ5YbntGYRS3v10yBhrIXQ_uq3Dtc/view?usp=drive_link
@@ -124,7 +124,105 @@ https://drive.google.com/file/d/19tBaQ5YbntGYRS3v10yBhrIXQ_uq3Dtc/view?usp=drive
 
 #### Inicialización y conexión
 
-[CONTINUE]
+📌 **Prerrequisitos:**  
+I. Instalar los paquetes requeridos:
+> import pandas as pd # data processing, CSV file I/O (e.g. pd.read_csv)
+> import matplotlib.pyplot as plt
+> import seaborn as sns  # visualization tool
+> import os
+> import gspread
+> from google.oauth2.service_account import Credentials
+
+II. Contar con una cuenta de Google Cloud Platform.
+- Paso 1: Crear un proyecto para el caso o utilizar uno de prácticas (como en mi caso).  
+- Paso 2: Habilitar las API de Google Drive y de Hoja de Cálculos. (Menú lateral izquierdo > APIs y servicios > Biblioteca)  
+- Paso 3: Crear una cuenta de servicio, con su respectivo correo, con privilegios de editor. (Menú lateral izquierdo > APIs y servicios > Credenciales > Crear credenciales > Cuenta de servicio)  
+    - Copiar dirección de correo de la cuenta de servicio.
+    - Crear par de claves para autenticar de forma remota desde el IDE. (En la página de detalles del servicio creado > Pestaña 'Claves' > Agregar clave > Crear clave nueva)  
+    - Descargar en formato JSON, copiar a la carpeta del proyecto y renombrar a 'client_secrets.json' y pegar el correo copiado como valor del campo 'client_email'. Este es un archivo sensible, con contenido de tipo <i>diccionario</i>. Se debe tratar como una contraseña.  También, añadí dicho archivo a '.gitignore' a nivel general.  
+        - Subí un archivo de muestra, con la clave censurada, para ejemplificar el contenido (Llamado 'clients_secrets.json.sample' ubicado en ../docs/).  
+ 
+####  Configuración de la conexión en el IDE.
+
+Luego de cargar paquetería, se deben definir ciertas variables para ser consumidas por `gspread`. Esta herramienta nos permitirá editar el contenido, individualmente, por celdas, a nivel de series o a nivel de DataFrame.  
+La única restricción que tiene es que se debe seleccionar y trabajar una (1) hoja a la vez, por instancia de IPython.  
+
+> SCOPES = [  
+>     'https://www.googleapis.com/auth/spreadsheets',  
+>     'https://www.googleapis.com/auth/drive.file'  
+> ]  
+
+#### Carga las credenciales desde el archivo JSON.  
+
+> CREDS_FILE = 'client_secrets.json'  
+> creds = Credentials.from_service_account_file(CREDS_FILE, scopes=SCOPES)  
+
+#### Autoriza al cliente.  
+> client = gspread.authorize(creds)  
+
+####  --- **INTERACCIÓN CON LA HOJA DE CÁLCULO** ---  
+
+#### Abre el documento de hoja de cálculo por su nombre.  
+
+> spreadsheet = client.open("promotional-campaign-tarjeta-de-la-casa")  
+
+#### Alternativamente, se puede abrir por su URL con client.open_by_url('URL_DE_LA_HOJA')  
+> spreadsheet = client.open_by_url('https://docs.google.com/spreadsheets/d/1KnQlh2fUDMCkChK4elx3hIwx9pYonjsC-gjmIeqbj7s/edit?usp=sharing')  
+
+#### Selecciona una hoja de trabajo (worksheet) por su nombre.  
+> worksheet = spreadsheet.worksheet("2025-06-10")  
+> print(f"Trabajando con la hoja: '{worksheet.title}'")  
+
+####  --- **LEER DATOS** ---
+
+#### Leer el valor de una celda específica (por ejemplo, A1).  
+> cell_value = worksheet.acell('A1').value  
+> print(f"El valor de la celda A1 es: {cell_value}")  
+
+#### Leer una fila completa (por ejemplo, la primera fila).  
+> row_values = worksheet.row_values(1)  
+> print(f"Valores de la fila 1: {row_values}")  
+
+#### Obtener todas las celdas como una lista de diccionarios (asume que la primera fila es el encabezado).    
+> records = worksheet.get_all_records()  
+> print("Todos los registros:")  
+> print(records)  
+
+#### --- **ESCRIBIR/EDITAR DATOS** ---  
+
+#### Escribir un valor en una celda específica (por ejemplo, B5).  
+> worksheet.update_acell('B5', '¡Hola desde Spyder!')  
+> print("Se escribió en la celda B5.")  
+
+#### Escribir en una celda usando notación F1C1 (fila, columna). Esto escribirá en la celda C5.  
+> worksheet.update_cell(5, 3, 3.14159)  # update_cells(args: '1= Índice de fila', '2= índice de columna', '3= valor')(Índices, en pythonm, comienzan en el 0)  
+> print("Se escribió en la celda C5.")  
+
+#### Agregar una nueva fila al final de la hoja.  
+> new_row = ["Dato A", "Dato B", "Dato C"]  
+> worksheet.append_row(new_row)  
+> print("Se agregó una nueva fila al final.")  
+
+#### Script consolidado  
+> try:  
+>     #spreadsheet = client.open("promotional-campaign-tarjeta-de-la-casa") # <-- CAMBIAR ESTO  
+>     spreadsheet = client.open_by_url('https://docs.google.com/spreadsheets/d/1KnQlh2fUDMCkChK4elx3hIwx9pYonjsC-gjmIeqbj7s/edit?usp=sharing')  
+>     worksheet = spreadsheet.worksheet("2025-06-10") # <-- CAMBIA ESTO por el nombre de tu hoja  
+>     print("✅ Conexión exitosa y hoja '{worksheet.title}' seleccionada.")  
+> except Exception as e:  
+>     print(f"❌ Error al conectar: {e}")   # Si hay un error aquí, no continuamos.  
+>     exit()  
+
+#### ** --- CARGAR DATOS A PANDAS ---  
+Aquí, la conexión, recolección y almacenado de los datos ya está realizado.  
+De aquí en adelante, se trabajarán los datos, localmente, a nivel de DataFrame. Luego, los datos serán subidos de vuelta así mismo.  
+> #get_all_records() es perfecto porque devuelve una lista de diccionarios, ideal para crear un DataFrame.  
+> data = worksheet.get_all_records()  
+> df = pd.DataFrame(data)  
+> print("\n--- DataFrame Original Cargado ---")  
+> print(df.head(5)) # Muestra las primeras 5 filas  
+
+#### A partir de este punto, se realizará manipulación de los datos a nivel de DataFrame. Lo que se considera 'trabajo con volumen de daots'.  
 
 #### 🔠 Paso 2: Análisis exploratorio de datos y primeras visualizaciones
 📌 **Prerrequisito:** Instalar el plugin `spyder-notebook` para ejecutar notebooks dentro de Spyder.  
