@@ -50,5 +50,5 @@ En otras palabras: puedes estudiar, usar y modificar este software libremente, p
 
 Esto permite que el conocimiento circule, que se valore el trabajo invertido y que no se privatice lo que nace como un esfuerzo comunitario.  
 
-Si tienes alguna duda, necesidad especial o quieres negociar una licencia alternativa para uso cerrado o comercial, puedes escribirme directamente.  
+Si tienes alguna duda, pull-request o quieres negociar una licencia alternativa para uso cerrado o comercial, puedes escribirme directamente.  
 </p>
