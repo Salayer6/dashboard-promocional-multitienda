@@ -1,4 +1,4 @@
-## Dashboard para análisis de rendimiento [Campaña promocional - Multitienda]
+## Dashboard para análisis de rendimiento [Campaña promocional - Multitienda ficticia]
 #### Un estudio econométrico por Ignacio Salas, Estudiante de Data Science. 
 
 <p align="justify">
